@@ -393,6 +393,60 @@ h3{
 	line-height: 35px;
 }
 
+/*APPLICANT CSS*/
+
+
+
+/* PENDING */
+.pending{
+	color:#9e0000;
+}
+
+.save-app{
+	background-color:#474747;
+	color:#fff;
+	width:150px;
+	height:30px;
+	line-height: 30px;
+	/*KEEP HEIGHT AND LINE HEIGHT SAME IN ORDER TO KEEP TEXT VERTICALLY CENTERED*/
+    margin-bottom: 20px;
+	text-align:center;
+	border-radius:5px;
+	font-size:1.2em;
+	font-family:'bitter', serif;
+	float:right;
+}
+
+.save-app:hover{
+	background-color:#eeeeee;
+	color:#474747;
+	border-color:#474747;
+	border-style: solid;
+    border-width: 1px;
+}
+
+.submit-app{
+	background-color:#387666;
+	color:#fff;
+	width:150px;
+	height:30px;
+	line-height: 30px;
+	/*KEEP HEIGHT AND LINE HEIGHT SAME IN ORDER TO KEEP TEXT VERTICALLY CENTERED*/
+    margin-bottom: 20px;
+	text-align:center;
+	border-radius:5px;
+	font-size:1.2em;
+	font-family:'bitter', serif;
+	float:right;
+}
+
+.submit-app:hover{
+	background-color:#eeeeee;
+	color:#474747;
+	border-color:#474747;
+	border-style: solid;
+    border-width: 1px;
+}
 
 
 
