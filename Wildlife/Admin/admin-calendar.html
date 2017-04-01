@@ -192,7 +192,7 @@
                                           
                                            <!--NAME-->
                                           <div class="form-group">
-                                              <label class="control-label col-sm-4"> Event name (if any)</label>
+                                              <label class="control-label col-sm-4"> Shift type or <br> Event name*</label>
                                               <div class="col-sm-6">
                                                   <div class="input-prepend">
                                                       <input id="name" type="text" class=" form-control" value="Name of event, if any"/>
@@ -224,28 +224,55 @@
                                           <div class="form-group">
                                               <label class="control-label col-sm-4"> Department*</label>
                                               <div class="col-sm-6">
-                                                  <div class="input-prepend">
-                                                      <input id="dept" type="text" class=" form-control" value="DROPDOWN"/>
-                                                  </div>
+                                                  <div class="form-group">
+                               						<select class="form-control m-bot15">
+                                   						<option>Transport</option>
+                                   						<option>Animal Care</option>
+                                    					<option>Front desk</option>
+                                    					<option>Outreach</option>
+                                    					<option>Vet team</option>
+                                						</select>
+                         						</div>
                                               </div>
                                           </div>
                                           
 										  <!--VOLUNTEERS-->
                                           <div class="form-group">
                                               <label class="control-label col-sm-4"> Number of volunteers needed*</label>
-                                              <div class="col-sm-6">
-                                                  <div class="input-prepend">
-                                                      <input id="volunteers" type="text" class=" form-control" value="DROPDOWN"/>
-                                                  </div>
+                                              <div class="col-sm-3">
+                                                  <div class="form-group">
+                               						<select class="form-control m-bot15">
+                                   						<option>1</option>
+                                   						<option>2</option>
+                                    					<option>3</option>
+                                    					<option>4</option>
+                                    					<option>5</option>
+                                					</select>
+                         						</div>
                                               </div>
                                           </div>
                                           
-                                           <!--Notes-->
+                <!--ADVANCED -->
+                                         
+                                         <div class="row filter"> <!--START FILTER ROW-->
+      <!--collapse start-->
+                      <div class="panel-group m-bot20" id="accordion">
+                          <div class="panel">
+                              <!--<div class="panel-heading"> -->
+                                  <h4 class="panel-title">
+                                      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                          Advanced <b class="caret"></b>
+                                      </a>
+                                  </h4>
+                              <!--</div> -->
+                              <div id="collapseOne" class="panel-collapse collapse in">
+									  <form class="form-horizontal " method="get"> </form>
+                                     <!--Notes-->
                                           <div class="form-group">
                                               <label class="control-label col-sm-4">Special Notes</label>
                                               <div class="col-sm-6">
                                                   <div class="input-prepend">
-                                                      <input id="Notes" type="text" class=" form-control" value="Note"/>
+													  <textarea id="recurring" type="text" class=" form-control" value="DROPDOWN"> </textarea>
                                                   </div>
                                               </div>
                                           </div>
@@ -253,7 +280,7 @@
                                           
                                            <!--SEARCH-->
                                           <div class="form-group">
-                                              <label class="control-label col-sm-4">Search by name</label>
+                                              <label class="control-label col-sm-4">Search by volunteer name</label>
                                               <div class="col-sm-6">
                                                   <div class="input-prepend">
                                                       <input id="name-volunteer" type="text" class=" form-control" value="Search"/>
@@ -265,9 +292,21 @@
                                           <div class="form-group">
                                               <label class="control-label col-sm-4">FILTER STUFF</label>
                                               <div class="col-sm-6">
-                                                  <div class="input-prepend">
-                                                      <input id="filter" type="text" class=" form-control" value="DROPDOWN"/>
-                                                  </div>
+                                                   <div class="form-group">
+                                      <label class="control-label col-lg-2" for="inputSuccess">Inline checkboxes</label>
+                                      <div class="col-lg-10">
+                                          <label class="checkbox-inline">
+                                              <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+                                          </label>
+                                          <label class="checkbox-inline">
+                                              <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
+                                          </label>
+                                          <label class="checkbox-inline">
+                                              <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+                                          </label>
+
+                                      </div>
+                                  </div>
                                               </div>
                                           </div>
                                           
@@ -280,6 +319,23 @@
                                                   </div>
                                               </div>
                                           </div>
+                                     
+                                     
+                                     
+                                     
+                                 
+                          
+                         
+                          
+                      </div>
+                      <!--collapse end-->
+		  </div> <!--END ROW FILER-->
+     
+                                         
+                                         
+                                         
+                                          
+                                           
 
                                      
                                      
