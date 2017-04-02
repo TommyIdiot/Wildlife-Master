@@ -491,6 +491,7 @@ h3{
 
 
 
+
 /*THEME CSS */
 body {
 
@@ -7916,7 +7917,7 @@ ul.amounts li {
 
     background: #F7F7F7;
 
-    color: #688a7e;
+    /*color: #688a7e; */
 
 
 
@@ -9306,7 +9307,7 @@ table.sliders tr td {
 
 .radios {
 
-    padding-top: 18px;
+    padding-top: 8px;
 
 }
 
