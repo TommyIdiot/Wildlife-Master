@@ -12,6 +12,9 @@
 
 /*BITTER FONT*/
 @import url('https://fonts.googleapis.com/css?family=Bitter');
+.html{
+	min-height: 100%;
+}
 
 
 /*LOGIN PAGE*/
@@ -36,6 +39,10 @@
 
 .login-button a{
 	color:#2e2e2e;
+}
+
+a{
+	color:#6491C4;
 }
 
 /*SPECIFICALLY THE LOGIN BUTTON */
@@ -81,6 +88,21 @@
 .clock-out{
 	background-color:#D0671A;
 	color:#fff;
+}
+
+/*FOOTER*/
+.footer{
+	color:#2e2e2e;
+	text-align:center;
+	overflow: hidden;
+	vertical-align: bottom;
+	float:bottom;
+}
+
+.footer-line{
+	border-width:1px;
+	border-color:#2e2e2e;
+	border-style:solid;
 }
 
 
