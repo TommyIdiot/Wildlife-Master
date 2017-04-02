@@ -336,6 +336,7 @@ h3{
 /*CONFIRMATION TEXT*/
 .confirmation-text{
 	color:#387666;
+	font-size:1.5em;
 }
 
 /*CHANGE PASSWORD*/
@@ -488,8 +489,55 @@ h3{
 
 
 
+/*CALENDAR*/
+
+/*GOOGLE CALENDAR VIEW*/
+.calendar-view{
+	padding-top:7px;
+	font-weight:bold;
+}
 
 
+/*BUTTONS*/
+/*CHANGE PASSWORD*/
+/*SEARCH BUTTON */
+.calendar-button{
+	width:150px;
+	height:30px;
+	line-height: 30px;
+	/*KEEP HEIGHT AND LINE HEIGHT SAME IN ORDER TO KEEP TEXT VERTICALLY CENTERED*/
+	margin-top: 5px;
+    /*margin-bottom: 20px; */
+	text-align:center;
+	border-radius:5px;
+	font-size:1em;
+	font-family:'bitter', serif;
+	margin-left:10px;
+}
+
+.calendar-button:hover{
+	border-style: solid;
+    border-width: 1px;
+}
+
+.add-calendar{
+	background-color:#387666;
+	color:#fff;
+}
+
+.add-calendar:hover{
+	background-color:#eeeeee;
+	color:#387666;
+	border-color:#387666;
+}
+
+.panel-heading{
+	background:#81d3e8;
+}
+
+.panel-filter > .panel-heading{
+	background-color:black;
+}
 
 /*THEME CSS */
 body {
@@ -2624,9 +2672,9 @@ div[data-role="editor-toolbar"] {
 
   min-height: 34px;
 
-  border-left: 1px solid #ccc;
+  /*border-left: 1px solid #ccc;
 
-  border-right: 1px solid #ccc;
+  border-right: 1px solid #ccc; */
 
   -webkit-border-radius: 0px;
 
@@ -2772,7 +2820,7 @@ div[data-role="editor-toolbar"] {
 
   border-width: 1px 1px 2px;
 
-  border-style: solid;
+  /*border-style: solid; */
 
   border-top: none;
 
@@ -7916,7 +7964,7 @@ ul.amounts li {
 
     background: #F7F7F7;
 
-    color: #688a7e;
+    /*color: #688a7e; */
 
 
 
@@ -9306,7 +9354,7 @@ table.sliders tr td {
 
 .radios {
 
-    padding-top: 18px;
+    padding-top: 8px;
 
 }
 

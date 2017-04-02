@@ -8,7 +8,7 @@
     <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
     <link rel="shortcut icon" href="../NiceAdmin/img/favicon.png">
 
-    <title>Search results</title>
+    <title>Calendar</title>
 
     <!-- Bootstrap CSS -->    
     <link href="../NiceAdmin/css/bootstrap.min.css" rel="stylesheet">
@@ -152,60 +152,36 @@
       </aside>
       <!--sidebar end-->
       <!--NAV END-->
-      <!--main content start-->
       
-      <!--MAIN CONTENT START-->
+      
+       <!--main content start-->
       <section id="main-content">
           <section class="wrapper"> 
       <div class="container">
       <div class="row"><!--START PAGE TITLE-->
       <h3 class="page-header">
-      	Search Personnel
+      	Calendar
       </h3>
       </div> <!--END PAGE TITLE-->
       
-    <div class="row"> <!--ROW TEXT-->
-     	<div class="col-md-9"> <!--COL START-->
-			<p>Search for Wildlife staff or volunteers. </p>
-		</div> <!--COL END-->
-      
-	</div> <!--END ROW TEXT-->
-      
-      <div class="row"> <!--START SEARCH ROW-->
-     		<div class="search-bar-main"> <!--DIV CLASS SEARCH BAR MAIN-->
-      		<div class="col-md-7"> <!--START COL MD 3 (search)-->
-      			<form class="navbar-form">
-                            <input class="form-control" placeholder="Emily F" type="text">
-                 </form>
-		  </div> <!--END COL MD 3-->
-		  
-		  <div class="col-md-3"> <!--START COL MD 3 (search)-->
-      				<a href="public-profile.html">
-      					<div class="search-button">
-					<p>Search</p>
-			  			</div>
-			  		</a>
-                 
-		  </div> <!--END COL MD 3-->
-		  
-		
-		  
-		
-		  
-		  </div> <!--END DIV CLASS-->
-		  
-		  
-		</div> <!--END SEARCH ROW-->
-     
-     
-     <div class="row filter"> <!--START FILTER ROW-->
-      <!--collapse start-->
-                      <div class="panel-group m-bot20" id="accordion">
+       <div class="row"> <!--START ROW INSTRUCTIONS-->
+   		<div class="col-md-9"> <!--START COL INSTRUCTION-->
+   
+			<p> Welcome to the calendar! Schedule and edit shifts.</p>
+	   </div> <!--END COL INSYRUCTIONS-->
+   
+	</div> <!--END ROW INSTRUCTIONS-->
+   
+   <!--CALENDAR-->
+   		<div class="row calendar"> <!--CALENDAR ROW-->
+   			<div class="col-md-6">
+   			
+   			<div class="panel-group m-bot20" id="accordion">
                           <div class="panel panel-default">
-                              <div class="panel-heading">
+                              <div class="panel-heading panel-filter" style="background-color:#81d3e8; color:#2e2e2e;">
                                   <h4 class="panel-title">
                                       <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                                          Filter search results <b class="caret"></b>
+                                          Filter Calendar results <b class="caret"></b>
                                       </a>
                                   </h4>
                               </div>
@@ -218,7 +194,255 @@
                                      
                                      
                                       <label class="control-label col-md-2" for="inputSuccess">Department</label>
-                                      <div class="col-md-2">
+                                      <div class="col-md-4">
+                                          <div class="checkbox">
+                                              <label>
+                                                  <input type="checkbox" value="">
+                                                  Animal Care
+                                              </label>
+                                          </div>
+
+                                          <div class="checkbox">
+                                              <label>
+                                                  <input type="checkbox" value="">
+                                                  Front Desk
+                                              </label>
+                                          </div>
+                                          
+                                          <div class="checkbox">
+                                              <label>
+                                                  <input type="checkbox" value="">
+                                                  Outreach
+                                              </label>
+                                          </div>
+                                         
+                                           <div class="checkbox">
+                                              <label>
+                                                  <input type="checkbox" value="">
+                                                  Vet team
+                                              </label>
+                                          </div>
+                                            
+                                          <div class="checkbox">
+                                              <label>
+                                                  <input type="checkbox" value="">
+                                                  Transport
+                                              </label>
+                                          </div>
+                                          
+                                          <div class="checkbox">
+                                              <label>
+                                                  <input type="checkbox" value="">
+                                                  Student
+                                              </label>
+                                          </div>
+                                          
+                                         
+                                          
+                                      </div>
+                                      
+                                      <!--AVAILIABILITY-->
+                                     
+                                      
+                                      <!--START FILTER-->
+                                       <div class="col-md-4">
+                                          <div class="checkbox">
+                                              <label>
+                                                  <input type="checkbox" value="">
+                                                  Available shifts
+                                              </label>
+                                          </div>
+
+                                          <div class="checkbox">
+                                              <label>
+                                                  <input type="checkbox" value="">
+                                                  Partially filled shifts
+                                              </label>
+                                          </div>
+                                          
+                                          <div class="checkbox">
+                                              <label>
+                                                  <input type="checkbox" value="">
+                                                  Filled shifts
+                                              </label>
+                                          </div>
+                                        
+                                      </div>
+                                      <!--END TIME-->
+                                      
+                                      
+                                  </div> <!--END DEPARTMENT-->
+                            
+
+                              </form>
+                                    
+                                  </div>
+                              </div>
+                          </div>
+                         
+                          
+                      </div>
+   
+   
+   <!--END CALENDAR FILTER-->
+			
+   			
+   			
+   				<iframe src="https://calendar.google.com/calendar/embed?mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=rjrej00rrndafdfbvjdmmktkkg%40group.calendar.google.com&amp;color=%232F6309&amp;ctz=America%2FNew_York" style="border-width:0"  width="520" height="600" frameborder="0" scrolling="no" padding-left="20px;"></iframe>
+   
+				<!--CALENDAR FILTER-->
+   	
+   		
+			
+			
+			
+			
+			</div>
+   
+	
+   
+   
+   
+   
+   
+   
+   <!--END CALENDAR-->
+   
+   
+   
+   
+   
+    
+    <!--ADD EVENT BUTTON-->
+    <div class="col-md-6">
+    	<a href="admin-edit-calendar.html">
+				<div class="calendar-button edit-button" style="margin-bottom:10px; margin-top:0px;"><!--START DIV EDIT BUTTON-->
+				<p>Edit Shift</p>
+				</div>  <!--END DIV EDIT BUTTON-->
+			</a>
+		 
+    
+    <!--END ADD EVENT BUTTON-->
+     
+   
+   <div class="row"> <!--ADD AN EVENT-->
+   		<div class="col-md-12"> <!--COL-->
+                             
+                              <section class="panel">
+                                  <h4 class="panel-heading">
+                                      View shift
+                                  </h4>
+                                  <div class="panel-body">
+                                      <form class="form-horizontal" action="#">
+                                         
+                                          <!--PICK A DATE-->
+                                          <div class="form-group">
+                                              <label class="control-label col-sm-4">Date*</label>
+                                              <div class="col-sm-6">
+												  <p class="calendar-view"> 6-19-2017 </p>
+                                              </div>
+                                          </div>
+                                          
+                                           <!--NAME-->
+                                          <div class="form-group">
+                                              <label class="control-label col-sm-4"> Shift type or <br> Event name*</label>
+                                              <div class="col-sm-6">
+                                                  <div class="input-prepend">
+                                                      <p class="calendar-view"> School tour </p>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          
+											<!--TIME IN-->
+                                          <div class="form-group">
+                                              <label class="control-label col-sm-4"> Time In*</label>
+                                              <div class="col-sm-6">
+                                                  <div class="input-prepend">
+                                                      <p class="calendar-view"> 9:00AM </p>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          
+                                          <!--TIME OUT-->
+                                          <div class="form-group">
+                                              <label class="control-label col-sm-4"> Time Out*</label>
+                                              <div class="col-sm-6">
+                                                  <div class="input-prepend">
+                                                      <p class="calendar-view"> 12:00PM </p>
+                                                  </div>
+                                              </div>
+                                          </div>
+
+                                         <!--DEPARTMENT-->
+                                          <div class="form-group">
+                                              <label class="control-label col-sm-4"> Department*</label>
+                                              <div class="col-sm-6">
+                                                  <div class="form-group">
+                               						<p class="calendar-view"> Outreach </p>
+                         						</div>
+                                              </div>
+                                          </div>
+                                          
+                                         
+										  <!--VOLUNTEERS-->
+                                          <div class="form-group">
+                                              <label class="control-label col-sm-4"> Number of volunteers needed*</label>
+                                              <div class="col-sm-3">
+                                                  <div class="form-group">
+                               						<p class="calendar-view"> 2 </p>
+                         						</div>
+                                              </div>
+                                          </div>
+                                          
+                                           
+                                          <!--ASSIGNED VOLUNTEERS-->
+                                          <div class="form-group">
+                                              <label class="control-label col-sm-4"> Assigned Volunteers</label>
+                                              <div class="col-sm-6">
+                                                  <div class="form-group">
+                               						<div class="input-prepend">
+                                                      <p class="calendar-view"> Sam Winchester, Emily Fitzgerald </p>
+                                                  </div>
+                         						</div>
+                                              </div>
+                                          </div>
+                                          
+                                          
+                <!--ADVANCED -->
+                                         
+       <div class="row filter"> <!--START FILTER ROW-->
+      <!--collapse start-->
+                      <div class="panel-group m-bot20" id="accordionadv">
+                          <div class="panel">
+                              <!--<div class="panel-heading"> -->
+                                  <h4 class="panel-title">
+                                      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionadv" href="#collapseTwo">
+                                          Advanced <b class="caret"></b>
+                                      </a>
+                                  </h4>
+                              <!--</div> -->
+                              <div id="collapseTwo" class="panel-collapse collapse">
+									  <form class="form-horizontal " method="get"> </form>
+                                    
+                                          
+                                          
+                                           <!--SEARCH-->
+                                          <div class="form-group">
+                                              <label class="control-label col-sm-4">Search by volunteer name</label>
+                                              <div class="col-sm-6">
+                                                  <div class="input-prepend">
+                                                      <input id="name-volunteer" type="text" class=" form-control" value="Search"/>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          
+                                           <!--FILTERING-->
+                                   <div class="form-group">
+                                          <label class="control-label col-sm-4">Filter by department</label>
+                                              <div class="col-sm-6">
+                                                   <div class="form-group">
+                                      		
+                                      		 <!--<div class="col-md-2"> -->
                                           <div class="checkbox">
                                               <label>
                                                   <input type="checkbox" value="">
@@ -253,290 +477,85 @@
                                                   Student
                                               </label>
                                           </div>
-                                          
-                                          <div class="checkbox">
-                                              <label>
-                                                  <input type="checkbox" value="">
-                                                  Inactive
-                                              </label>
+                                  				</div>
+                                              			</div>
+                                        </div> <!--END FILTERING DIV-->
+                                         
+                                          <!--Notes-->
+                                          <div class="form-group">
+                                              <label class="control-label col-sm-4">Special Notes</label>
+                                              <div class="col-sm-6">
+                                                  <div class="input-prepend">
+													  <p class="calendar-view"> Kids in tour between ages of 5 and 8 </p>
+                                                  </div>
+                                              </div>
                                           </div>
                                           
-                                      </div>
-                                      
-                                      <!--AVAILIABILITY-->
-                                      <label class="control-label col-md-2" for="inputSuccess">Availability</label>
-                                      <div class="col-md-3">
-                                          <div class="checkbox">
-                                             
-                                             <!--DAYS OF THE WEEK-->
-                                              <label>
-                                                  <input type="checkbox" value="">
-                                                  Monday
-                                              </label>
-                                          </div>
-
-                                          <div class="checkbox">
-                                              <label>
-                                                  <input type="checkbox" value="">
-                                                  Tuesday
-                                              </label>
-                                          </div>
-                                          
-                                          <div class="checkbox">
-                                              <label>
-                                                  <input type="checkbox" value="">
-                                                  Wednesday
-                                              </label>
-                                          </div>
-                                          
-                                          <div class="checkbox">
-                                              <label>
-                                                  <input type="checkbox" value="">
-                                                  Thursday
-                                              </label>
-                                          </div>
-                                          
-                                          <div class="checkbox">
-                                              <label>
-                                                  <input type="checkbox" value="">
-                                                  Friday
-                                              </label>
-                                          </div>
-                                          
-                                          <div class="checkbox">
-                                              <label>
-                                                  <input type="checkbox" value="">
-                                                  Saturday
-                                              </label>
-                                          </div>
-                                          
-                                          <div class="checkbox">
-                                              <label>
-                                                  <input type="checkbox" value="">
-                                                  Sunday
-                                              </label>
-                                          </div>
-                                      </div>
-                                      
-                                      <!--START TIME-->
-                                       <div class="col-md-3">
-                                          <div class="checkbox">
-                                              <label>
-                                                  <input type="checkbox" value="">
-                                                  Mornings
-                                              </label>
-                                          </div>
-
-                                          <div class="checkbox">
-                                              <label>
-                                                  <input type="checkbox" value="">
-                                                  Afternoons
-                                              </label>
-                                          </div>
-                                          
-                                          <div class="checkbox">
-                                              <label>
-                                                  <input type="checkbox" value="">
-                                                  Evenings
-                                              </label>
-                                          </div>
-                                        
-                                      </div>
-                                      <!--END TIME-->
-                                      
-                                      
-                                  </div> <!--END DEPARTMENT-->
-                            
-
-                              </form>
+                      <!--RECURRING-->
+                          <div class="form-group">
+                                 <label class="control-label col-sm-4">Recurring?</label>
+                                       <div class="col-sm-6">
+                                            <p class="calendar-view"> No </p>
+                                              </div>
+                              				</div>
                                     
-                                  </div>
-                              </div>
-                          </div>
+                        
+                                          
+                                          
+                            
+                                          
+                                          
+                                     
+                                     
+                                     
+                                     
+                                 
+                          
                          
                           
                       </div>
                       <!--collapse end-->
+						  </div>
 		  </div> <!--END ROW FILER-->
+										  </div>
      
+                                         
+                                         
+                                         
+                                          
+                                           
+
+                                     
+                                     
+                                      </form>
+                                  </div>
+                              </section>
+                             
+                          </div> <!--END COL-->
+   
+   
+   
+	</div> <!--END EVENT ROW-->
+    
+    
+    
+     </div>
+    </div> <!--END CALENDAR ROW-->
+    
+    
+    
+    
+    
+    
      
-     
-     <!--START PUBLIC PROFILES LIST-->
-      <div class="row"> <!--START row public profile-->
-       <!--FIRST RESULT-->
-        <div class="col-md-6 toppad" ><!--START COL 6-->
-          <div class="panel panel-info"> <!--START PANEL INFO-->
-            <div class="panel-heading"> <!--START PANEL HEADING-->
-              <h3 class="panel-title">
-              <a href="profile-results.html">
-              Emily Fitzgerald
-				  </a>
-              </h3> <!--NAME-->
-            </div><!---END PANEL PANEL-HEADING--->
-            <div class="panel-body"> <!--START DIVE BODY-->
-              <div class="row"> <!--START RWO PANEL BODY-->
-                <div class="col-md-3 col-lg-3"> <img alt="User Pic" src="../images/head-shot.jpg" class="img-circle img-responsive profile-image"> <!---our public profile image--->
-                </div><!---END COL-MD-3--->
-                
-                 <div class=" col-md-9 col-lg-9 ">  <!--START COL MAIN TEXT-->
-                  <table class="table table-user-information"> <!--TABLE USER INFO-->
-                    <tbody>
-                      <tr>
-                        <td>Position:</td>
-                        <td>Volunteer</td>
-                      </tr>
-                      <tr>
-                        <td>Department:</td>
-                        <td>Transport</td>
-                      </tr>
-                    <tr>
-                      
-                        <td>Email</td>
-                        <td><a href="mailto:emmmaf@gmail.com">emmaf@gmail.com</a></td>
-                      
-                    </tr>
-                     
-                    </tbody>
-                  </table>
-                </div><!---END COL-MD-9--->
-              </div><!---END ROW--->
-            </div><!---END PANEL-BODY--->
-          </div><!---END PANEL-PANEL INFO--->
-        </div><!---END COL-MD-6--->
-        
-        <!--SECOND RESULT-->
-        <div class="col-md-6 toppad" ><!--START COL 6-->
-          <div class="panel panel-info"> <!--START PANEL INFO-->
-            <div class="panel-heading"> <!--START PANEL HEADING-->
-              <h3 class="panel-title">Emily Fields</h3> <!--NAME-->
-            </div><!---END PANEL PANEL-HEADING--->
-            <div class="panel-body"> <!--START DIVE BODY-->
-              <div class="row"> <!--START RWO PANEL BODY-->
-                <div class="col-md-3 col-lg-3" > <img alt="User Pic" src="../images/head-shot3.jpg" class="img-circle img-responsive profile-image"> <!---our public profile image--->
-                </div><!---END COL-MD-3--->
-                
-                 <div class=" col-md-9 col-lg-9 ">  <!--START COL MAIN TEXT-->
-                  <table class="table table-user-information"> <!--TABLE USER INFO-->
-                    <tbody>
-                      <tr>
-                        <td>Position:</td>
-                        <td>Volunteer</td>
-                      </tr>
-                      <tr>
-                        <td>Department:</td>
-                        <td>Animal Care</td>
-                      </tr>
-                    <tr>
-                      
-                        <td>Email</td>
-                        <td><a href="mailto:emilyfields@gmail.com">emilyfields@gmail.com</a></td>
-                      
-                    </tr>
-                     
-                    </tbody>
-                  </table>
-                </div><!---END COL-MD-9--->
-              </div><!---END ROW--->
-            </div><!---END PANEL-BODY--->
-          </div><!---END PANEL-PANEL INFO--->
-        </div><!---END COL-MD-6--->
-        
-      </div><!---END ROW--->
-      
-  <!--END PUBLIC PROFILE-->
-      
-   <!--PUBLIC PROFILE ROW 2-->
-     <div class="row"> <!--START row public profile-->
-        <div class="col-md-6 toppad" ><!--START COL 6-->
-          <div class="panel panel-info"> <!--START PANEL INFO-->
-            <div class="panel-heading"> <!--START PANEL HEADING-->
-              <h3 class="panel-title">Emily Cooper</h3> <!--NAME-->
-            </div><!---END PANEL PANEL-HEADING--->
-            <div class="panel-body"> <!--START DIVE BODY-->
-              <div class="row"> <!--START RWO PANEL BODY-->
-                <div class="col-md-3 col-lg-3"> <img alt="User Pic" src="../images/head-shot4.jpg" class="img-circle img-responsive profile-image"> <!---our public profile image--->
-                </div><!---END COL-MD-3--->
-                
-                 <div class=" col-md-9 col-lg-9 ">  <!--START COL MAIN TEXT-->
-                  <table class="table table-user-information"> <!--TABLE USER INFO-->
-                    <tbody>
-                      <tr>
-                        <td>Position:</td>
-                        <td>Student Volunteer</td>
-                      </tr>
-                      <tr>
-                        <td>Department:</td>
-                        <td>Outreach</td>
-                      </tr>
-                    <tr>
-                      
-                        <td>Email</td>
-                        <td><a href="mailto:cooperc@gmail.com">cooperc@gmail.com</a></td>
-                      
-                    </tr>
-                     
-                    </tbody>
-                  </table>
-                </div><!---END COL-MD-9--->
-              </div><!---END ROW--->
-            </div><!---END PANEL-BODY--->
-          </div><!---END PANEL-PANEL INFO--->
-        </div><!---END COL-MD-6--->
-        
-        <div class="col-md-6 toppad" ><!--START COL 6-->
-          <div class="panel panel-info"> <!--START PANEL INFO-->
-            <div class="panel-heading"> <!--START PANEL HEADING-->
-              <h3 class="panel-title">Emily Smith</h3> <!--NAME-->
-            </div><!---END PANEL PANEL-HEADING--->
-            <div class="panel-body"> <!--START DIVE BODY-->
-              <div class="row"> <!--START RWO PANEL BODY-->
-                <div class="col-md-3 col-lg-3"> <img alt="User Pic" src="../images/head-shot6.jpg" class="img-circle img-responsive profile-image"> <!---our public profile image--->
-                </div><!---END COL-MD-3--->
-                
-                 <div class=" col-md-9 col-lg-9 ">  <!--START COL MAIN TEXT-->
-                  <table class="table table-user-information"> <!--TABLE USER INFO-->
-                    <tbody>
-                      <tr>
-                        <td>Position:</td>
-                        <td>Staff</td>
-                      </tr>
-                      <tr>
-                        <td>Department:</td>
-                        <td>Outreach</td>
-                      </tr>
-                    <tr>
-                      
-                        <td>Email</td>
-                        <td><a href="esmith@wildlifecenter.org">esmith@wildlifecenter.org</a></td>
-                      
-                    </tr>
-                     
-                    </tbody>
-                  </table>
-                </div><!---END COL-MD-9--->
-              </div><!---END ROW--->
-            </div><!---END PANEL-BODY--->
-          </div><!---END PANEL-PANEL INFO--->
-        </div><!---END COL-MD-6--->
-        
-      </div><!---END ROW--->
-      <!--END PUBLIC PROFILE-->
-     
-      
-      
-      
-      
-    </div><!---END MAIN CONTENT--->
-      
-      
-      
-      
-      
-      
-      
-      
-      
+ 
+			  </div><!--END DIV CONTAINER-->
+			   </section> <!--END SECTION WRAPPER-->
+	  </section> <!--END SECTION MAIN CONENT-->
+
       <!--main content end-->
+      
+      
       <div class="text-right">
             
         </div>
