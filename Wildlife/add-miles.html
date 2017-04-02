@@ -8,7 +8,7 @@
     <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
     <link rel="shortcut icon" href="NiceAdmin/img/favicon.png">
 
-    <title>View Timesheet</title>
+    <title>Add Title</title>
 
     <!-- Bootstrap CSS -->    
     <link href="NiceAdmin/css/bootstrap.min.css" rel="stylesheet">
@@ -37,7 +37,7 @@
   <section id="container">
       <!--header start-->
       
-  <!--NAV START-->    
+      <!--NAV START-->    
       <header class="header dark-bg">
             <div class="toggle-nav">
                 <div class="icon-reorder tooltips" data-placement="bottom"><i class="icon_menu"></i></div>
@@ -143,6 +143,13 @@
 					
 				</div>
 			</div>
+             
+     <div class="row"> <!--START ROW INSTRUCTIONS-->
+   		<div class="col-md-9"> <!--START COL INSTRUCTION-->
+			<p> Click on the line you wish to edit. Once finished, be sure to save.</p>
+	   </div> <!--END COL INSYRUCTIONS-->
+   
+	</div> <!--END ROW INSTRUCTIONS-->
               
   
 				  
@@ -153,14 +160,23 @@
 		</div> <!--END COL TITLE-->
 		
 	<div class="col-md-6"><!--START COL TITLE-->
-			<a href="edit-timesheet.html">
-			<div class="edit-button"><!--START DIV EDIT BUTTON-->
-				<p>Edit</p>
+		<div class="two-buttons">
+			<a href="confirmation-timesheet.html">
+			<div class="save-button"><!--START DIV EDIT BUTTON-->
+				<p>Save</p>
 				</div>  <!--END DIV EDIT BUTTON-->
 			</a>
+			
+			
+		</div> <!--END TWO BUTTONS DIV -->
 		</div> <!--END COL TITLE-->
   
 	</div> <!--END ROW TITLE-->
+  
+  
+  
+   
+   
     
     
   <div class="row"> <!--TIMESHEET ROW-->   
@@ -190,7 +206,7 @@
                               </thead>
                               <tbody>
                               <tr>
-                                  <td>03-02-2017</td>
+                                 <td>03-02-2017</td>
                                   <td>9:00am</td>
                                   <td>12:00pm</td>
                                   <td>3</td>
@@ -320,17 +336,69 @@
 <!--END TIMESHEET-->
  
  <hr>
-
- <!--MILES TIMESHEET-->				   
+  
+  <!--MILES TIMESHEET-->				   
     <div class="row"><!--START ROW TITLE-->
     <div class="col-sm-9"><!--START COL TITLE-->
 		<h3>Total Miles Driven: 225</h3>
 		</div> <!--END COL TITLE-->
     
 	</div> <!--END ROW TITLE-->
+
+  
+    <div class="row"> <!--START ROW ADD TIME-->
+  	<div class="col-sm-9"> <!--START COL SM 9-->
+  		<div class="panel-body">
+       <!--TIMECHART-->
+        
+                      <section class="panel">
+                          <table class="table table-striped">
+                              <thead>
+                              <tr>
+                                  <th>Date (MM-DD-YYYY)</th>
+                                  <th>Miles driven</th>
+                                  <th>Species</th>
+                                  <th>Notes</th>
+                              </tr>
+                              </thead>
+                              <tbody>
+                              <tr>
+                                <td>
+                                 <div class="form-group">
+   										<input class="form-control" id="focusedInput" type="text" value="00-00-2010">
+   								</div>
+								  </td>
+                                 <td>
+                                  <div class="form-group">
+   										<input class="form-control" id="focusedInput1" type="text" value="Miles">
+								  </div>
+								  </td>
+                                 <td>
+                                  <div class="form-group">
+   										<input class="form-control" id="focusedInput2" type="text" value="Species">
+								  </div>
+								  </td>
+                                 <td>
+                                  <div class="form-group">
+   										<input class="form-control" id="focusedInput3" type="text" value="--">
+								  </div>
+								  </td>
+                              </tr>
+                             
+                            
+                              </tbody>
+                          </table>
+                      </section>
+                  
+                  <!--END TIME CHART-->
+      </div>
+    </div>
+  </div>
     
     
-  <div class="row"> <!--MILES ROW-->   
+    
+    
+    <div class="row"> <!--MILES ROW-->   
      <div class="col-sm-9"><!--START COL--> 
       <div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
   <div class="panel panel-default">
@@ -497,6 +565,10 @@
       </div> <!--END ROW TIMESHEET-->
       
 <!--END MILES-->
+    
+    	
+    
+    
      
       </section>
       <!--main content end-->
