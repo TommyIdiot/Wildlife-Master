@@ -195,9 +195,9 @@
     
     <!--ADD EVENT BUTTON-->
     <div class="col-md-6">
-    	<a href="admin-view-calendar.html">
-				<div class="calendar-button add-calendar" style="margin-bottom:10px; margin-top:0px;"><!--START DIV EDIT BUTTON-->
-				<p>Add Shift</p>
+    	<a href="admin-confirmation-calendar.html">
+				<div class="change-password-button" style="margin-bottom:10px; margin-top:0px;"><!--START DIV EDIT BUTTON-->
+				<p>Save Shift</p>
 				</div>  <!--END DIV EDIT BUTTON-->
 			</a>
 		 
@@ -210,7 +210,7 @@
                              
                               <section class="panel">
                                   <h4 class="panel-heading">
-                                      Add a shift
+                                      Edit shift
                                   </h4>
                                   <div class="panel-body">
                                       <form class="form-horizontal" action="#">
@@ -219,7 +219,7 @@
                                           <div class="form-group">
                                               <label class="control-label col-sm-4">Date*</label>
                                               <div class="col-sm-6">
-                                                  <input id="cp1" type="text" value="MM-DD-YYYY" size="16" class="form-control">
+                                                  <input id="cp1" type="text" value="06-19-2017" size="16" class="form-control">
                                               </div>
                                           </div>
                                           
@@ -228,7 +228,7 @@
                                               <label class="control-label col-sm-4"> Shift type or <br> Event name*</label>
                                               <div class="col-sm-6">
                                                   <div class="input-prepend">
-                                                      <input id="name" type="text" class=" form-control" value="Name of event, if any"/>
+                                                      <input id="name" type="text" class=" form-control" value="Tour to school"/>
                                                   </div>
                                               </div>
                                           </div>
@@ -238,7 +238,7 @@
                                               <label class="control-label col-sm-4"> Time In*</label>
                                               <div class="col-sm-6">
                                                   <div class="input-prepend">
-                                                      <input id="time-in" type="text" class=" form-control" value="0:00AM"/>
+                                                      <input id="time-in" type="text" class=" form-control" value="9:00AM"/>
                                                   </div>
                                               </div>
                                           </div>
@@ -248,7 +248,7 @@
                                               <label class="control-label col-sm-4"> Time Out*</label>
                                               <div class="col-sm-6">
                                                   <div class="input-prepend">
-                                                      <input id="time-out" type="text" class=" form-control" value="0:00AM"/>
+                                                      <input id="time-out" type="text" class=" form-control" value="12:00PM"/>
                                                   </div>
                                               </div>
                                           </div>
@@ -259,12 +259,25 @@
                                               <div class="col-sm-6">
                                                   <div class="form-group">
                                						<select class="form-control m-bot15">
+                                   						<option>Outreach</option>
                                    						<option>Transport</option>
                                    						<option>Animal Care</option>
                                     					<option>Front desk</option>
-                                    					<option>Outreach</option>
                                     					<option>Vet team</option>
                                 						</select>
+                         						</div>
+                                              </div>
+                                          </div>
+                                          
+                                          
+                                          <!--ASSIGNED VOLUNTEERS-->
+                                          <div class="form-group">
+                                              <label class="control-label col-sm-4"> Assigned Volunteers</label>
+                                              <div class="col-sm-6">
+                                                  <div class="form-group">
+                               						<div class="input-prepend">
+                                                      <input id="assigned-volunteers" type="text" class=" form-control" value="Sam Winchester, Emily Fitzgerald"/>
+                                                  </div>
                          						</div>
                                               </div>
                                           </div>
@@ -275,8 +288,8 @@
                                               <div class="col-sm-3">
                                                   <div class="form-group">
                                						<select class="form-control m-bot15">
-                                   						<option>1</option>
                                    						<option>2</option>
+                                   						<option>1</option>
                                     					<option>3</option>
                                     					<option>4</option>
                                     					<option>5</option>
@@ -305,7 +318,7 @@
                                               <label class="control-label col-sm-4">Special Notes</label>
                                               <div class="col-sm-6">
                                                   <div class="input-prepend">
-													  <textarea id="specialnotes" type="text" class=" form-control" value="DROPDOWN"> </textarea>
+													  <textarea id="specialnotes" type="text" class=" form-control" value="DROPDOWN"> Kids in tour between ages of 5 and 8</textarea>
                                                   </div>
                                               </div>
                                           </div>
