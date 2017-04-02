@@ -535,6 +535,10 @@ h3{
 	background:#81d3e8;
 }
 
+.panel-filter > .panel-heading{
+	background-color:black;
+}
+
 /*THEME CSS */
 body {
 
