@@ -531,9 +531,9 @@ h3{
 	border-color:#387666;
 }
 
-
-
-
+.panel-heading{
+	background:#81d3e8;
+}
 
 /*THEME CSS */
 body {
@@ -2668,9 +2668,9 @@ div[data-role="editor-toolbar"] {
 
   min-height: 34px;
 
-  border-left: 1px solid #ccc;
+  /*border-left: 1px solid #ccc;
 
-  border-right: 1px solid #ccc;
+  border-right: 1px solid #ccc; */
 
   -webkit-border-radius: 0px;
 
@@ -2816,7 +2816,7 @@ div[data-role="editor-toolbar"] {
 
   border-width: 1px 1px 2px;
 
-  border-style: solid;
+  /*border-style: solid; */
 
   border-top: none;
 
