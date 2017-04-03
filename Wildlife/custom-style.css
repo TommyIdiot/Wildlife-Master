@@ -519,6 +519,12 @@ h3{
 	font-weight:bold;
 }
 
+.alert-shift{
+	    background-color: #E19E6D;
+    border-color: #D0671A;
+    color: #2e2e2e;
+}
+
 
 /*BUTTONS*/
 /*CHANGE PASSWORD*/
