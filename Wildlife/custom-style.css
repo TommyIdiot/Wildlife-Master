@@ -94,9 +94,11 @@ a{
 .footer{
 	color:#2e2e2e;
 	text-align:center;
-	overflow: hidden;
 	vertical-align: bottom;
-	float:bottom;
+	position:absolute;
+	bottom:0;
+	left:auto;
+	right:auto;
 }
 
 .footer-line{
@@ -253,6 +255,7 @@ h3{
 	line-height: 30px;
 	/*KEEP HEIGHT AND LINE HEIGHT SAME IN ORDER TO KEEP TEXT VERTICALLY CENTERED*/
     margin-bottom: 10px;
+	margin-left:10px;
 	text-align:center;
 	border-radius:5px;
 	font-size:1.2em;
@@ -262,8 +265,8 @@ h3{
 
 .save-profile:hover{
 	background-color:#eeeeee;
-	color:#474747;
-	border-color:#474747;
+	color:#387666;
+	border-color:#387666;
 	border-style: solid;
     border-width: 1px;
 }
@@ -376,7 +379,7 @@ h3{
 	border-radius:5px;
 	font-size:1em;
 	font-family:'bitter', serif;
-	margin-left:10px;
+	margin-left:10px; 
 }
 
 .change-password-button:hover{
