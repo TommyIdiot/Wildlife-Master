@@ -12,6 +12,9 @@
 
 /*BITTER FONT*/
 @import url('https://fonts.googleapis.com/css?family=Bitter');
+.html{
+	min-height: 100%;
+}
 
 
 /*LOGIN PAGE*/
@@ -36,6 +39,10 @@
 
 .login-button a{
 	color:#2e2e2e;
+}
+
+a{
+	color:#6491C4;
 }
 
 /*SPECIFICALLY THE LOGIN BUTTON */
@@ -81,6 +88,23 @@
 .clock-out{
 	background-color:#D0671A;
 	color:#fff;
+}
+
+/*FOOTER*/
+.footer{
+	color:#2e2e2e;
+	text-align:center;
+	vertical-align: bottom;
+	position:absolute;
+	bottom:0;
+	left:auto;
+	right:auto;
+}
+
+.footer-line{
+	border-width:1px;
+	border-color:#2e2e2e;
+	border-style:solid;
 }
 
 
@@ -231,6 +255,7 @@ h3{
 	line-height: 30px;
 	/*KEEP HEIGHT AND LINE HEIGHT SAME IN ORDER TO KEEP TEXT VERTICALLY CENTERED*/
     margin-bottom: 10px;
+	margin-left:10px;
 	text-align:center;
 	border-radius:5px;
 	font-size:1.2em;
@@ -240,8 +265,8 @@ h3{
 
 .save-profile:hover{
 	background-color:#eeeeee;
-	color:#474747;
-	border-color:#474747;
+	color:#387666;
+	border-color:#387666;
 	border-style: solid;
     border-width: 1px;
 }
@@ -354,7 +379,7 @@ h3{
 	border-radius:5px;
 	font-size:1em;
 	font-family:'bitter', serif;
-	margin-left:10px;
+	margin-left:10px; 
 }
 
 .change-password-button:hover{
@@ -495,6 +520,12 @@ h3{
 .calendar-view{
 	padding-top:7px;
 	font-weight:bold;
+}
+
+.alert-shift{
+	    background-color: #E19E6D;
+    border-color: #D0671A;
+    color: #2e2e2e;
 }
 
 

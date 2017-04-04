@@ -8,7 +8,7 @@
     <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
     <link rel="shortcut icon" href="../NiceAdmin/img/favicon.png">
 
-    <title>Create profile</title>
+    <title>Add user</title>
 
     <!-- Bootstrap CSS -->    
     <link href="../NiceAdmin/css/bootstrap.min.css" rel="stylesheet">
@@ -32,7 +32,7 @@
     
   </head>
 
- <body>
+  <body>
   <!-- container section start -->
   <section id="container" class="">
       <!--header start-->
@@ -69,7 +69,7 @@
                     <li class="dropdown">
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                             <span class="profile-ava">
-                                
+                                <img alt="Rachel Owens" height="39px" width="39px" src="../images/rachel-owens.jpg">
                             </span>
                             <span class="username">Rachel Owens</span>
                             <b class="caret"></b>
@@ -157,102 +157,81 @@
       <!--NAV END-->
       <!--main content start-->
       
+     <!--MAIN CONTENT START-->
       <section id="main-content">
           <section class="wrapper"> 
       <div class="container">
-      <div class="row"><!--START PAGE TITLE-->
-      <h3 class="page-header">
-      	Create your profile
-      </h3>
+      	<div class="row"><!--START PAGE TITLE-->
+      			<h3 class="page-header">
+      				Add user
+      			</h3>
       </div> <!--END PAGE TITLE-->
       
-      <div class="row"> <!--START ROW INSTRUCTIONS-->
-   		<div class="col-md-9"> <!--START COL INSTRUCTION-->
-			<p> Create your public profile to be seen by the members of your team.</p>
-	   </div> <!--END COL INSYRUCTIONS-->
-   
-	</div> <!--END ROW INSTRUCTIONS-->
+      <p class="confirmation-text"> An email has been sent! </p>
+     
+    <div class="row"> <!--ROW SAVE-->
+     	<div class="col-md-6 col-md-offset-3">
+     		<a href="profile-confirmation.html">
+				<div class="save-profile"><!--START DIV EDIT BUTTON-->
+				<p>Send</p>
+				</div>  <!--END DIV EDIT BUTTON-->
+			</a>
+		</div> <!--END SAVE COL-->
+    </div>  <!--END ROW SAVE BUTTON-->
      
      
-     
-     <!--START PERSONAL INFORMATION-->
+       
+         
+      
+ 
+        
+   <!--START PERSONAL INFORMATION-->
         <div class="row">
         <div class="col-md-6 col-md-toppad col-md-offset-3" ><!--START COL 6-->
           <div class="panel panel-info"> <!--START PANEL INFO-->
             <div class="panel-heading"> <!--START PANEL HEADING-->
-              <h3 class="panel-title">Basic Info</h3> <!--NAME-->
+              <h3 class="panel-title">Add user</h3> <!--NAME-->
             </div><!---END PANEL PANEL-HEADING--->
+            
+            
             <div class="panel-body"> <!--START DIVE BODY-->
               <div class="row"> <!--START RWO PANEL BODY-->
-                <div class="col-md-3 col-lg-3"> 
+                <div class="col-md-3 col-lg-3 " align="center"> 
                 </div><!---END COL-MD-3--->
                 
                  
                   <table class="table table-user-information"> <!--TABLE USER INFO-->
                     <tbody>
-                      <tr>
-						  <td>Select department</td>
-                        <td>
-                        <div class="checkbox checkbox-success checkbox-inline"><!---year round checkbox1--->
-                        <input type="checkbox" id="inlineCheckbox2" value="option1" checked="">
-                        <label for="inlineCheckbox2"> Transport</label>
-                    </div><!---end year round checkbox--->
-               <br>
-                    <div class="checkbox checkbox-inline"><!---seasonal checkbox--->
-                        <input type="checkbox" id="inlineCheckbox3" value="option1">
-                        <label for="inlineCheckbox3"> Animal </label>
-                    </div>
-				<br>
-                       <div class="checkbox checkbox-inline"><!---seasonal checkbox--->
-                        <input type="checkbox" id="inlineCheckbox4" value="option1">
-                        <label for="inlineCheckbox4"> Outreach </label>
-                 
-                    </div>
-                 <br>
-                        <div class="checkbox checkbox-inline"><!---seasonal checkbox--->
-                        <input type="checkbox" id="inlineCheckbox5" value="option1">
-                        <label for="inlineCheckbox5"> Front Desk </label>
-                        
-                    </div>
-                        </td>
-                      </tr>
-                        <tr>
+                      
+                    <tr>
                       <tr>
                         <td>Email</td>
                         <td>
-                        <div class="form-group"><!---distance field--->
-   									<input class="form-control" id="email" type="text" value="ex. animallover17@gmail.com">
-   							</div>
-                        </td>
-                      </tr>
-                    </tr>
-                      <tr>
-                      <tr>
-                        <td>Phone number</td>
-                        <td>
-                        <div class="form-group"><!---distance field--->
-   									<input class="form-control" id="phone" type="text" value="(xxx)xxx-xxxx">
-   							</div>
-                        </td>
-                      </tr>
-                    </tr>
-                     
-                    <tr>
-                      
-                        <td>Upload profile picture</td>
-                        <td>
                         <div class="form-group">
-                                      <label for="exampleInputFile">Choose a jpg, png or gif</label>
-                                      <input type="file" id="exampleInputFile">
-                                      
-                                  </div>
+   									<input class="form-control" id="focusedInput" type="text" value="Email">
+   							</div>
                         
                         </td>
-                      
+                      </tr>
                     </tr>
-                    
-                    
-              		
+                    <tr>
+                    	<tr>
+                    	<td>User type</td>
+                    	<td>
+                    		 <div class="form-group">
+                               <select class="form-control m-bot15">
+                                   <option>Team lead</option>
+                                   <option>Staff</option>
+                                   <option>Volunteer</option>
+                                   <option>Student</option>
+                                   <option>Volunteer Applicant</option>
+                                   <option>Student Applicant</option>
+                                </select>
+                         		</div>
+                    	</td>
+                    	</tr>
+					 </tr>
+              	
               		
              
                     </tbody>
@@ -263,55 +242,12 @@
           </div><!---END PANEL-PANEL INFO--->
         </div><!---END COL-MD-6--->
         
-        <div class="col-md-6 col-md-offset-3">
-     		<a href="view-profile.html">
-				<div class="save-profile"><!--START DIV EDIT BUTTON-->
-				<p>Create</p>
-				</div>  <!--END DIV EDIT BUTTON-->
-			</a>
-		</div> <!--END SAVE COL-->
-        
       </div><!---END Second row--->
       
   <!--END PERSONAL INFORMATION-->
+         
       
-      
-      
-      
-      
-      
-      
-			  </div><!--END DIV CONTAINER-->
-			   </section> <!--END SECTION WRAPPER-->
-	  </section> <!--END SECTION MAIN CONENT-->
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <!--main content end-->
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <!--main content end-->
+    </div><!---END MAIN CONTENT--->
       <div class="text-right">
             
         </div>

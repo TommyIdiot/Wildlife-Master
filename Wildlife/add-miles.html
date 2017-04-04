@@ -8,7 +8,7 @@
     <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
     <link rel="shortcut icon" href="NiceAdmin/img/favicon.png">
 
-    <title>Add Time</title>
+    <title>Add Title</title>
 
     <!-- Bootstrap CSS -->    
     <link href="NiceAdmin/css/bootstrap.min.css" rel="stylesheet">
@@ -32,9 +32,9 @@
     
   </head>
 
-   <body>
+  <body>
   <!-- container section start -->
-  <section id="container" class="">
+  <section id="container">
       <!--header start-->
       
       <!--NAV START-->    
@@ -44,7 +44,7 @@
             </div>
 
             <!--logo start-->
-		  <span> <a href="Volunteer/volunteer-calendar.html" class="logo"> <img class="img-responsive" alt="nav logo" height="40px" src="images/logo-nav-version-smaller.png"></a></span>
+		  <span> <a href="view-timesheet.html" class="logo">Va Wildlife Center</a></span>
             <!--logo end-->
             
 			<!--SEARCH-->
@@ -69,7 +69,8 @@
                     <li class="dropdown">
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                             <span class="profile-ava">
-                                <img alt="Sam Winchester" height="39px" width="39px" src="images/sam-winchester--avatar.png"></span>
+                                <img alt="Sam Winchester" height="39" width="39" src="images/sam-winchester--avatar.png">
+                            </span>
                             <span class="username">Sam Winchester</span>
                             <b class="caret"></b>
                         </a>
@@ -96,13 +97,7 @@
           <div id="sidebar"  class="nav-collapse">
               <!-- SIDEBAR MENU-->
               <ul class="sidebar-menu">                
-                    <li class="sub-menu"> <!--TIMESHEET-->
-                      <a href="Volunteer/volunteer-calendar.html" class="">
-                          <span>Calendar</span>
-                         
-                      </a>
-                     
-                  </li> 
+                  
 				  <li class="sub-menu"> <!--TIMESHEET-->
                       <a href="javascript:;" class="">
                           <span>Timesheet</span>
@@ -120,19 +115,25 @@
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
                       <ul class="sub">
-                          
-                          <li><a class="" href="full-profile.html">View Profile</a></li>                          
+                          <li><a class="" href="profile.html">View Profile</a></li>                          
                           <li><a class="" href="edit-profile.html">Edit Profile</a></li>
                       </ul>
                   </li>  <!--END PROFILE-->
-         
+                      
+                  <li class="sub-menu"> <!--PERSONNEL-->
+                      <a href="search-personnel.html" class="">
+                          <span>Personnel</span>
+                      </a>
+                      
+                  </li>  <!--END TIMESHEET-->
               </ul>
               <!-- END SIDEBAR MENU-->
           </div>
       </aside>
       <!--sidebar end-->
       <!--NAV END-->
-      <!--main content start-->
+
+      <!--MAIN CONTENT-->
       <section id="main-content">
           <section class="wrapper">            
               <!--overview start-->
@@ -172,54 +173,7 @@
   
 	</div> <!--END ROW TITLE-->
   
-  <div class="row"> <!--START ROW ADD TIME-->
-  	<div class="col-sm-9"> <!--START COL SM 9-->
-  		<div class="panel-body">
-       <!--TIMECHART-->
-        
-                      <section class="panel">
-                          <table class="table table-striped">
-                              <thead>
-                              <tr>
-                                  <th>Date (MM-DD-YYYY)</th>
-                                  <th>Time in</th>
-                                  <th>Time Out</th>
-                                  <th>Total Hours</th>
-                              </tr>
-                              </thead>
-                              <tbody>
-                              <tr>
-                                <td>
-                                 <div class="form-group">
-   										<input class="form-control" id="focusedInput" type="text" value="00-00-2010">
-   								</div>
-								  </td>
-                                 <td>
-                                  <div class="form-group">
-   										<input class="form-control" id="focusedInput1" type="text" value="00:00am">
-								  </div>
-								  </td>
-                                 <td>
-                                  <div class="form-group">
-   										<input class="form-control" id="focusedInput2" type="text" value="00:00am">
-								  </div>
-								  </td>
-                                 <td>
-                                  <div class="form-group">
-   										<input class="form-control" id="focusedInput3" type="text" value="0">
-								  </div>
-								  </td>
-                              </tr>
-                             
-                            
-                              </tbody>
-                          </table>
-                      </section>
-                  
-                  <!--END TIME CHART-->
-      </div>
-    </div>
-  </div>
+  
   
    
    
@@ -391,7 +345,60 @@
     
 	</div> <!--END ROW TITLE-->
 
-  <div class="row"> <!--MILES ROW-->   
+  
+    <div class="row"> <!--START ROW ADD TIME-->
+  	<div class="col-sm-9"> <!--START COL SM 9-->
+  		<div class="panel-body">
+       <!--TIMECHART-->
+        
+                      <section class="panel">
+                          <table class="table table-striped">
+                              <thead>
+                              <tr>
+                                  <th>Date (MM-DD-YYYY)</th>
+                                  <th>Miles driven</th>
+                                  <th>Species</th>
+                                  <th>Notes</th>
+                              </tr>
+                              </thead>
+                              <tbody>
+                              <tr>
+                                <td>
+                                 <div class="form-group">
+   										<input class="form-control" id="focusedInput" type="text" value="00-00-2010">
+   								</div>
+								  </td>
+                                 <td>
+                                  <div class="form-group">
+   										<input class="form-control" id="focusedInput1" type="text" value="Miles">
+								  </div>
+								  </td>
+                                 <td>
+                                  <div class="form-group">
+   										<input class="form-control" id="focusedInput2" type="text" value="Species">
+								  </div>
+								  </td>
+                                 <td>
+                                  <div class="form-group">
+   										<input class="form-control" id="focusedInput3" type="text" value="--">
+								  </div>
+								  </td>
+                              </tr>
+                             
+                            
+                              </tbody>
+                          </table>
+                      </section>
+                  
+                  <!--END TIME CHART-->
+      </div>
+    </div>
+  </div>
+    
+    
+    
+    
+    <div class="row"> <!--MILES ROW-->   
      <div class="col-sm-9"><!--START COL--> 
       <div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
   <div class="panel panel-default">
