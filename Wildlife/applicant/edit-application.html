@@ -135,7 +135,7 @@
      
    
     <div class="row"> <!--ROW SAVE-->
-     	<div class="col-md-6 col-md-offset-3">
+     	<div class="col-md-6">
      		<a href="view-application.html">
 				<div class="save-profile"><!--START DIV EDIT BUTTON-->
 				<p>Save</p>
@@ -145,9 +145,9 @@
     </div>  <!--END ROW SAVE BUTTON-->
      
       <div class="row"> <!--START ROW CHANGE BUTTON-->
-     	<div class="col-md-6 col-md-offset-3"><!--START EDIT COL-->
+     	<div class="col-md-6"><!--START EDIT COL-->
      		<a href="../change-password.html">
-				<div class="change-password-button" style="float:right; margin-bottom:10px; margin-top:-10px;"><!--START DIV EDIT BUTTON-->
+				<div class="change-password-button" style="margin-bottom:10px; margin-top:0px;"><!--START DIV EDIT BUTTON-->
 				<p>Change password</p>
 				</div>  <!--END DIV EDIT BUTTON-->
 			</a>
@@ -156,46 +156,85 @@
       
       
       
-      <!--START PUBLIC PROFILE-->
-      
-      <div class="row"> <!--START row public profile-->
+      <!--START VOLUNTEER PROFILE-->
+ 
+ 
+ 
+ <div class="row"> <!--PROFILE-->
+  	<div class="col-md-6"> <!--left row-->
+  	
+  	
+  	
+    <div class="row"> <!--START row public profile-->
        <!--FIRST RESULT-->
-        <div class="col-md-6 toppad col-md-offset-3" ><!--START COL 6-->
+        <div class="col-md-12 toppad" ><!--START COL 6-->
           <div class="panel panel-info"> <!--START PANEL INFO-->
             <div class="panel-heading"> <!--START PANEL HEADING-->
               <h3 class="panel-title">Sam Winchester</h3> <!--NAME-->
             </div><!---END PANEL PANEL-HEADING--->
             <div class="panel-body"> <!--START DIVE BODY-->
               <div class="row"> <!--START RWO PANEL BODY-->
-                <div class="col-md-3 col-lg-3 " align="center"> <img alt="User Pic" src="../images/sam winchester.jpg" class="img-circle img-responsive profile-image"> <!---our public profile image--->
+                <div class="col-md-3 col-lg-3 " align="center"> <img alt="User Pic" src="images/sam winchester.jpg" class="img-circle img-responsive profile-image"> <!---our public profile image--->
                 </div><!---END COL-MD-3--->
                 
                  <div class=" col-md-9 col-lg-9 ">  <!--START COL MAIN TEXT-->
                   <table class="table table-user-information"> <!--TABLE USER INFO-->
                     <tbody>
                       <tr>
-                        <td>Status:</td>
-						  <td><div class="pending">Pending Review </div></td>
-                      </tr>
-                       
-                       <tr>
                         <td>Position:</td>
-                        <td>Volunteer</td>
+                        <td>
+                        	<div class="form-group">
+                               <select class="form-control m-bot15">
+                                   <option>Volunteer</option>
+                                    <option>Student Volunteer</option>
+                                    <option>Staff</option>
+                                    <option>Team lead</option>
+                                    <option>Inactive</option>
+                                </select>
+                         	</div>
+                        </td>
                       </tr>
                       <tr>
                         <td>Department:</td>
-                        <td>Animal Transport</td>
-                      </tr>
-                    <tr>
-                      <tr>
-                        <td>Email</td>
                         <td>
-                        <div class="form-group"><!---distance field--->
-   									<input class="form-control" id="distance" type="text" value="samw@gmail.com">
-   							</div>
+                        	<div class="form-group">
+                               <select class="form-control m-bot15">
+                                   <option>Transport</option>
+                                   <option>Animal Care</option>
+                                    <option>Front desk</option>
+                                    <option>Outreach</option>
+                                    <option>Vet team</option>
+                                    
+                                </select>
+                         	</div>
                         </td>
                       </tr>
+                      
+                       <tr>
+                        <td>Team lead</td>
+                        <td>
+                        <div class="form-group">
+                               <select class="form-control m-bot15">
+                                   <option>Rachel Owens</option>
+                                    <option>John Winchester</option>
+                                    <option>Boby Singer</option>
+                                    <option>Jo Harvell</option>
+                                    <option>Bela Talbot</option>
+                                </select>
+                         	</div>
+                        </td>
                     </tr>
+                      
+                    <tr>
+                        <td>Email</td>
+                        <td>
+                        <div class="form-group">
+   									<input class="form-control" id="focusedInput" type="text" value="samw@gmail.com">
+   							</div>
+                        </td>
+                    </tr>
+                    
+                   
                      
                     </tbody>
                   </table>
@@ -206,10 +245,257 @@
         </div><!---END COL-MD-6--->
 	</div><!---end first row--->
    <!--END PUBLIC PROFILE-->
-        
-   <!--START PERSONAL INFORMATION-->
+   
+   
+  
+  <!--START EM CONTACT-->
         <div class="row">
-        <div class="col-md-6 col-md-toppad col-md-offset-3" ><!--START COL 6-->
+        <div class="col-md-12 col-md-toppad" ><!--START COL 6-->
+          <div class="panel panel-info"> <!--START PANEL INFO-->
+            <div class="panel-heading emergency"> <!--START PANEL HEADING-->
+              <h3 class="panel-title">Emergency Contact</h3> <!--NAME-->
+            </div><!---END PANEL PANEL-HEADING--->
+            <div class="panel-body"> <!--START DIVE BODY-->
+              <div class="row"> <!--START RWO PANEL BODY-->
+                <div class="col-md-3 col-lg-3 " align="center"> 
+                </div><!---END COL-MD-3--->
+                
+                 
+                  <table class="table table-user-information"> <!--TABLE USER INFO-->
+                    <tbody>
+                      <tr>
+                        <td>Name:</td>
+                        <td><div class="form-group">
+   									<input class="form-control" id="focusedInput5" type="text" value="Dean Winchester">
+   							</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Relation:</td>
+                        <td><input class="form-control" id="focusedInput6" type="text" value="Brother">
+                        </td>
+                      </tr>
+                    <tr>
+                      <tr>
+                        <td>Phone Number:</td>
+                        <td><input class="form-control" id="focusedInput7" type="text" value="(785)476-4933">
+                        </td>
+                      </tr>
+                    </tr>
+                    
+              		
+              		 <tr>
+                    	<tr>
+                    	<td>Home Address</td>
+                    	<td><input class="form-control" id="focusedInput8" type="text" value="123 Hunter Dr, Lawrence, Kansas 66049"></td>
+                    	</tr>
+					 </tr>
+             
+                    </tbody>
+                  </table>
+               
+              </div><!---END ROW--->
+            </div><!---END PANEL-BODY--->
+          </div><!---END PANEL-PANEL INFO--->
+        </div><!---END COL-MD-6--->
+        
+      </div><!---END Second row--->
+    <!---END EM CONTACT-->
+  
+  <!--START ATTACH DOCS-->
+        <div class="row">
+        <div class="col-md-12 col-md-toppad" ><!--START COL 6-->
+          <div class="panel panel-info"> <!--START PANEL INFO-->
+            <div class="panel-heading"> <!--START PANEL HEADING-->
+              <h3 class="panel-title">Attach Documents</h3> <!--NAME-->
+            </div><!---END PANEL PANEL-HEADING--->
+            <div class="panel-body"> <!--START DIVE BODY-->
+              <div class="row"> <!--START RWO PANEL BODY-->
+                <div class="col-md-3 col-lg-3 " align="center"> 
+                </div><!---END COL-MD-3--->
+                
+                 
+                  <table class="table table-user-information"> <!--TABLE USER INFO-->
+                    <tbody>
+                      <tr>
+                        <td>Rabies Vaccine</td>
+						<td> <a href="rabies.PDF">rabies.PDF</a>
+    							<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+                     	</td>
+                      </tr>
+                      <tr>
+                      	<td>Resume</td>
+                      	<td> <a href="resume.DOCX">resume.DOCX</a>
+  							<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+                      	</td>
+                      	
+                      </tr>
+                      <tr>
+                      	<td>VA Animal rehab permit</td>
+                      	<td> <a href="rehabpermit.DOCX">rehab.PDF</a>
+  								<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+                      	</td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                        	<div class="form-group">
+   									<input class="form-control" id="focusedInput9" type="text" value="File name">
+   							</div>
+                        </td>
+						<td> <div class="form-group">
+                                 <label for="exampleInputFile">Choose a file ending .doc, .docx, or .pdf</label>
+                                      <input type="file" id="exampleInputFile">
+                                  </div>
+                      </td>
+                      </tr>
+             
+             
+                    </tbody>
+                  </table>
+               
+              </div><!---END ROW--->
+            </div><!---END PANEL-BODY--->
+          </div><!---END PANEL-PANEL INFO--->
+        </div><!---END COL-MD-6--->
+        
+      </div><!---END Second row--->
+     <!--END ATTACH DOCS-->
+   
+    
+	 </div>   <!--END LEFT col-->
+     
+      
+ <div class="col-md-6"> <!--RIGHT COL-->
+  
+  <!--START TRANSPORT TEAM INFO-->
+        <div class="row">
+        <div class="col-md-12 col-md-toppad" ><!--START COL 6-->
+          <div class="panel panel-info"> <!--START PANEL INFO-->
+            <div class="panel-heading"> <!--START PANEL HEADING-->
+              <h3 class="panel-title">Transport Team Information</h3> <!--NAME-->
+            </div><!---END PANEL PANEL-HEADING--->
+            <div class="panel-body"> <!--START DIVE BODY-->
+              <div class="row"> <!--START RWO PANEL BODY-->
+                <div class="col-md-3 col-lg-3 " align="center"> 
+                </div><!---END COL-MD-3--->
+                
+                 
+                  <table class="table table-user-information"> <!--TABLE USER INFO-->
+                    <tbody>
+                      <tr>
+                        <td>Availability:</td>
+						  <td>
+						   		<div class="checkbox">
+                                    <label>
+                                       <input type="checkbox" value="">
+                                        Monday
+                                    </label>
+                                 </div>
+                                 
+                                 <div class="checkbox">
+                                    <label>
+                                       <input type="checkbox" value="">
+                                        Tuesday
+                                    </label>
+                                 </div>
+                                 
+                                 <div class="checkbox">
+                                    <label>
+                                       <input type="checkbox" value="">
+                                        Wednesday
+                                    </label>
+                                 </div>
+                                 
+                                 <div class="checkbox">
+                                    <label>
+                                       <input type="checkbox" value="">
+                                        Thursday
+                                    </label>
+                                 </div>
+                                 
+                                 <div class="checkbox">
+                                    <label>
+                                       <input type="checkbox" value="">
+                                        Friday
+                                    </label>
+                                 </div>
+                                 
+                                 <div class="checkbox">
+                                    <label>
+                                       <input type="checkbox" value="">
+                                        Saturday
+                                    </label>
+                                 </div>
+                                 
+                                 <div class="checkbox">
+                                    <label>
+                                       <input type="checkbox" value="">
+                                        Sunday
+                                    </label>
+                                 </div>
+						  
+						  
+                     </td>
+                     
+						  <td>  
+                     			<input class="form-control" id="focusedInput10" type="text" value="00:00AM-00:00AM">
+                     			<input class="form-control" id="focusedInput10" type="text" value="00:00AM-00:00AM">
+                     			<input class="form-control" id="focusedInput10" type="text" value="00:00AM-00:00AM">
+                     			<input class="form-control" id="focusedInput10" type="text" value="00:00AM-00:00AM">
+                     			<input class="form-control" id="focusedInput10" type="text" value="00:00AM-00:00AM">
+                     			<input class="form-control" id="focusedInput10" type="text" value="00:00AM-00:00AM">
+                     			<input class="form-control" id="focusedInput10" type="text" value="00:00AM-00:00AM">
+                     
+                     	</td>
+                      </tr>
+                      <tr>
+                      <tr>
+                        <td>Distance willing to travel:</td>
+						   <td>
+                    		<div class="form-group">
+   									<input class="form-control" id="focusedInput11" type="text" value="100 miles">
+   							</div>
+                     	</td>
+                      </tr>
+                      </tr>
+                       <tr>
+                        <td>Do you hold a valid permit <br> to rehabilitate wildlife <br> in the state of Virginia?</td>
+						   <td>
+                     			<div class="form-group">
+                               <select class="form-control m-bot15">
+                                   <option>Yes</option>
+                                   <option>No</option>
+                                </select>
+                         		</div>
+                     		</td>
+                      </tr>
+                      <tr>
+                        <td>Species limitation:</td>
+						   <td>
+                     			<div class="form-group">
+   									<input class="form-control" id="focusedInput8" type="text" value="No bears">
+   							</div>
+                     </td>
+                      </tr>
+             
+                    </tbody>
+                  </table>
+               
+              </div><!---END ROW--->
+            </div><!---END PANEL-BODY--->
+          </div><!---END PANEL-PANEL INFO--->
+        </div><!---END COL-MD-6--->
+        
+      </div><!---END Second row--->
+      
+   <!--END availabilityINFO-->
+  
+  
+  
+  <!--START PERSONAL INFORMATION-->
+        <div class="row">
+        <div class="col-md-12 col-md-toppad" ><!--START COL 6-->
           <div class="panel panel-info"> <!--START PANEL INFO-->
             <div class="panel-heading"> <!--START PANEL HEADING-->
               <h3 class="panel-title">Personal Information</h3> <!--NAME-->
@@ -222,27 +508,40 @@
                  
                   <table class="table table-user-information"> <!--TABLE USER INFO-->
                     <tbody>
-                      
+                      <tr>
+                        <td>Hire Date:</td>
+                        <td>06/02/2015</td>
+                      </tr>
                       <tr>
                         <td>DOB:</td>
-                        <td>07/19/1982</td>
+                        <td><input class="form-control" id="focusedInput10" type="text" value="07/19/1982">
+                        </td>
                       </tr>
                     <tr>
                       <tr>
                         <td>Gender</td>
-                        <td>Male</td>
+                        <td><input class="form-control" id="focusedInput11" type="text" value="Male">
+                        </td>
                       </tr>
                     </tr>
                     <tr>
                     	<tr>
                     	<td>Home Address</td>
-                    	<td>123 Hunter Dr, Lawrence, Kansas 66049</td>
+                    	<td>
+                    		<div class="form-group">
+   									<input class="form-control" id="focusedInput2" type="text" value="123 Hunter Dr, Lawrence, Kansas 66049">
+   							</div>
+                    	</td>
                     	</tr>
 					 </tr>
               		<tr>
               			<tr>
               			<td>Phone Number:</td>
-              			<td>(785)476-9555</td>
+              			<td>
+              				<div class="form-group">
+   									<input class="form-control" id="focusedInput3" type="text" value="(785)476-9555">
+   							</div>
+                         </td>
 						</tr>
               		</tr>
               		
@@ -258,60 +557,11 @@
       </div><!---END Second row--->
       
   <!--END PERSONAL INFORMATION-->
-         
-         
-  <!--START EM CONTACT-->
-        <div class="row">
-        <div class="col-md-6 col-md-toppad col-md-offset-3" ><!--START COL 6-->
-          <div class="panel panel-info"> <!--START PANEL INFO-->
-            <div class="panel-heading"> <!--START PANEL HEADING-->
-              <h3 class="panel-title">Emergency Contact</h3> <!--NAME-->
-            </div><!---END PANEL PANEL-HEADING--->
-            <div class="panel-body"> <!--START DIVE BODY-->
-              <div class="row"> <!--START RWO PANEL BODY-->
-                <div class="col-md-3 col-lg-3 " align="center"> 
-                </div><!---END COL-MD-3--->
-                
-                 
-                  <table class="table table-user-information"> <!--TABLE USER INFO-->
-                    <tbody>
-                      <tr>
-                        <td>Name:</td>
-                        <td>Dean Winchester</td>
-                      </tr>
-                      <tr>
-                        <td>Relation:</td>
-                        <td>Brother</td>
-                      </tr>
-                    <tr>
-                      <tr>
-                        <td>Phone Number:</td>
-                        <td>(785)476-4933</td>
-                      </tr>
-                    </tr>
-                    
-              		
-              		 <tr>
-                    	<tr>
-                    	<td>Home Address</td>
-                    	<td>123 Hunter Dr, Lawrence, Kansas 66049</td>
-                    	</tr>
-					 </tr>
-             
-                    </tbody>
-                  </table>
-               
-              </div><!---END ROW--->
-            </div><!---END PANEL-BODY--->
-          </div><!---END PANEL-PANEL INFO--->
-        </div><!---END COL-MD-6--->
-        
-      </div><!---END Second row--->
-    <!---END EM CONTACT-->
-      
+    
+    
     <!--START MED INFO-->
         <div class="row">
-        <div class="col-md-6 col-md-toppad col-md-offset-3" ><!--START COL 6-->
+        <div class="col-md-12 col-md-toppad" ><!--START COL 6-->
           <div class="panel panel-info"> <!--START PANEL INFO-->
             <div class="panel-heading"> <!--START PANEL HEADING-->
               <h3 class="panel-title">Medical Information</h3> <!--NAME-->
@@ -326,22 +576,42 @@
                     <tbody>
                       <tr>
                         <td>Rabies Vaccinated w/in past 2 years:</td>
-                        <td>Yes</td>
+                        <td>
+                         	<div class="form-group">
+                               <select class="form-control m-bot15">
+                                   <option>Yes</option>
+                                    <option>No</option>
+                                </select>
+                         	</div>
+                        </td>
                       </tr>
                       <tr>
                         <td>Allergies:</td>
-                        <td>None</td>
+                        <td>
+                        	<div class="form-group">
+   									<input class="form-control" id="focusedInput4" type="text" value="None">
+   							</div>
+                        
+                        </td>
                       </tr>
                     <tr>
                       <tr>
                         <td>Pre-Existing Medical Conditions:</td>
-                        <td>None</td>
+                        <td>
+                        	<div class="form-group">
+   									<input class="form-control" id="focusedInput5" type="text" value="None">
+   							</div>
+                        </td>
                       </tr>
                     </tr>
                     <tr>
                     <tr>
                         <td>Physical Limitations:</td>
-                        <td>None</td>
+                        <td>
+                        	<div class="form-group">
+   									<input class="form-control" id="focusedInput6" type="text" value="None">
+   							</div>
+                        </td>
                       </tr>
                     </tr>
                
@@ -355,107 +625,19 @@
         
       </div><!---END Second row--->
    <!---END MED INFO--->
-     
-   <!--START AVAILABILITY INFO-->
-        <div class="row">
-        <div class="col-md-6 col-md-toppad col-md-offset-3" ><!--START COL 6-->
-          <div class="panel panel-info"> <!--START PANEL INFO-->
-            <div class="panel-heading"> <!--START PANEL HEADING-->
-              <h3 class="panel-title">Wildlife Center Information</h3> <!--NAME-->
-            </div><!---END PANEL PANEL-HEADING--->
-            <div class="panel-body"> <!--START DIVE BODY-->
-              <div class="row"> <!--START RWO PANEL BODY-->
-                <div class="col-md-3 col-lg-3 " align="center"> 
-                </div><!---END COL-MD-3--->
-                
-                 
-                  <table class="table table-user-information"> <!--TABLE USER INFO-->
-                    <tbody>
-                      <tr>
-                        <td>Availability:</td>
-						  <td>Mondays-9:00am-12:00pm, <br>Thursdays-12:00pm-4:00pm<br>
-						  
-                     <div class="checkbox checkbox-warning checkbox-circle">
-                        <input id="year-round check box" type="checkbox" disabled="" checked="">
-                        <label for="year-round check box">
-                            Year-Round
-                        </label>
-                    </div>
-                     <div class="checkbox checkbox-warning checkbox-circle">
-                        <input id="seasonal check box" type="checkbox" disabled="">
-                        <label for="seasonal check box">
-                            Seasonal
-                        </label>
-                    </div>
-                     </td>
-                      </tr>
-                      <tr>
-                      <tr>
-                        <td>Distance willing to travel:</td>
-						   <td>100 mi</td>
-                      </tr>
-                      </tr>
-                       <tr>
-                        <td>Do you hold a valid permit <br> to rehabilitate wildlife <br> in the state of Virginia?</td>
-						   <td>Yes</td>
-                      </tr>
-                      <tr>
-                        <td>Species limitation:</td>
-						   <td>No bears</td>
-                      </tr>
-             
-                    </tbody>
-                  </table>
-               
-              </div><!---END ROW--->
-            </div><!---END PANEL-BODY--->
-          </div><!---END PANEL-PANEL INFO--->
-        </div><!---END COL-MD-6--->
-        
-      </div><!---END Second row--->
+   
+   
+   
+    
       
-   <!---END availabilityINFO--->
-     <!--START ATTACH DOCS-->
-        <div class="row">
-        <div class="col-md-6 col-md-toppad col-md-offset-3" ><!--START COL 6-->
-          <div class="panel panel-info"> <!--START PANEL INFO-->
-            <div class="panel-heading"> <!--START PANEL HEADING-->
-              <h3 class="panel-title">Attach Documents</h3> <!--NAME-->
-            </div><!---END PANEL PANEL-HEADING--->
-            <div class="panel-body"> <!--START DIVE BODY-->
-              <div class="row"> <!--START RWO PANEL BODY-->
-                <div class="col-md-3 col-lg-3 " align="center"> 
-                </div><!---END COL-MD-3--->
-                
-                 
-                  <table class="table table-user-information"> <!--TABLE USER INFO-->
-                    <tbody>
-                      <tr>
-                        <td>Rabies Vaccine</td>
-						<td> <a href="rabies.PDF">rabies.PDF</a></td>
-                      </tr>
-                      <tr>
-                      	<td>Resume</td>
-                      	<td> <a href="resume.DOCX">resume.DOCX</a></td>
-                      	
-                      </tr>
-                      <tr>
-                      	<td>VA Animal rehab permit</td>
-                      	<td> <a href="rehabpermit.DOCX">rehab.PDF</a></td>
-                      	
-                      </tr>
-             
-             
-                    </tbody>
-                  </table>
-               
-              </div><!---END ROW--->
-            </div><!---END PANEL-BODY--->
-          </div><!---END PANEL-PANEL INFO--->
-        </div><!---END COL-MD-6--->
-        
-      </div><!---END Second row--->
-     <!--END ATTACH DOCS-->
+	 </div> <!--END RIGHT ROW-->
+	 
+	   
+	     
+	    
+  
+     
+</div> <!--END PROFILE-->     
       
       
       
