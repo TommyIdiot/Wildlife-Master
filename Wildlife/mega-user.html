@@ -8,7 +8,7 @@
     <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
     <link rel="shortcut icon" href="NiceAdmin/img/favicon.png">
 
-    <title>View Profile</title>
+    <title>Full Profile</title>
 
     <!-- Bootstrap CSS -->    
     <link href="NiceAdmin/css/bootstrap.min.css" rel="stylesheet">
@@ -136,30 +136,38 @@
       <section id="main-content">
           <section class="wrapper"> 
       <div class="container">
-      	<div class="row"><!--START PAGE TITLE-->
-      			<h3 class="page-header">
-      				Profile
-      			</h3>
+      <div class="row"><!--START PAGE TITLE-->
+      <h3 class="page-header">
+      	Profile
+      </h3>
       </div> <!--END PAGE TITLE-->
-     
-    <div class="row"> <!--START ROW EDIT BUTTON-->
-     	<div class="col-md-6 col-md-offset-3"><!--START EDIT COL-->
-     			<a href="edit-profile.html">
-			<div class="profile-edit"><!--START DIV EDIT BUTTON-->
+      
+  <div class="row"> <!--ROW SAVE-->
+     	<div class="col-md-6">
+     		<a href="edit-profile.html">
+				<div class="edit-button"><!--START DIV EDIT BUTTON-->
 				<p>Edit</p>
 				</div>  <!--END DIV EDIT BUTTON-->
 			</a>
-		</div> <!--END EDIT COL-->
+		</div> <!--END SAVE COL-->
+    </div>  <!--END ROW SAVE BUTTON-->
+     
       
-	</div>  <!--END ROW EDIT BUTTON-->
        
          
       
- <!--START PUBLIC PROFILE-->
-      
-      <div class="row"> <!--START row public profile-->
+ <!--START VOLUNTEER PROFILE-->
+ 
+ 
+ 
+ <div class="row"> <!--PROFILE-->
+  	<div class="col-md-6"> <!--left row-->
+  	
+  	
+  	
+    <div class="row"> <!--START row public profile-->
        <!--FIRST RESULT-->
-        <div class="col-md-6 toppad col-md-offset-3" ><!--START COL 6-->
+        <div class="col-md-12 toppad" ><!--START COL 6-->
           <div class="panel panel-info"> <!--START PANEL INFO-->
             <div class="panel-heading"> <!--START PANEL HEADING-->
               <h3 class="panel-title">Sam Winchester</h3> <!--NAME-->
@@ -174,18 +182,26 @@
                     <tbody>
                       <tr>
                         <td>Position:</td>
-                        <td>Volunteer</td>
+                        	<td>Volunteer</td>
                       </tr>
                       <tr>
                         <td>Department:</td>
-                        <td>Animal Transport</td>
+                        	<td>Transport</td>
                       </tr>
+                      
+                       <tr>
+                        <td>Team lead</td>
+                        <td> <a href="Admin/view-profile.html"> 
+                        Rachel Owens
+							</a>
+                        </td>
+                    </tr>
+                      
                     <tr>
-                      <tr>
                         <td>Email</td>
                         <td><a href="mailto:samw@gmail.com">samw@gmail.com</a></td>
-                      </tr>
                     </tr>
+                   
                      
                     </tbody>
                   </table>
@@ -196,68 +212,14 @@
         </div><!---END COL-MD-6--->
 	</div><!---end first row--->
    <!--END PUBLIC PROFILE-->
-        
-   <!--START PERSONAL INFORMATION-->
-        <div class="row">
-        <div class="col-md-6 col-md-toppad col-md-offset-3" ><!--START COL 6-->
-          <div class="panel panel-info"> <!--START PANEL INFO-->
-            <div class="panel-heading"> <!--START PANEL HEADING-->
-              <h3 class="panel-title">Personal Information</h3> <!--NAME-->
-            </div><!---END PANEL PANEL-HEADING--->
-            <div class="panel-body"> <!--START DIVE BODY-->
-              <div class="row"> <!--START RWO PANEL BODY-->
-                <div class="col-md-3 col-lg-3 " align="center"> 
-                </div><!---END COL-MD-3--->
-                
-                 
-                  <table class="table table-user-information"> <!--TABLE USER INFO-->
-                    <tbody>
-                      <tr>
-                        <td>Hire Date:</td>
-                        <td>06/02/2015</td>
-                      </tr>
-                      <tr>
-                        <td>DOB:</td>
-                        <td>07/19/1982</td>
-                      </tr>
-                    <tr>
-                      <tr>
-                        <td>Gender</td>
-                        <td>Male</td>
-                      </tr>
-                    </tr>
-                    <tr>
-                    	<tr>
-                    	<td>Home Address</td>
-                    	<td>123 Hunter Dr, Lawrence, Kansas 66049</td>
-                    	</tr>
-					 </tr>
-              		<tr>
-              			<tr>
-              			<td>Phone Number:</td>
-              			<td>(785)476-9555</td>
-						</tr>
-              		</tr>
-              		
-             
-                    </tbody>
-                  </table>
-               
-              </div><!---END ROW--->
-            </div><!---END PANEL-BODY--->
-          </div><!---END PANEL-PANEL INFO--->
-        </div><!---END COL-MD-6--->
-        
-      </div><!---END Second row--->
-      
-  <!--END PERSONAL INFORMATION-->
-         
-         
+   
+   
+  
   <!--START EM CONTACT-->
         <div class="row">
-        <div class="col-md-6 col-md-toppad col-md-offset-3" ><!--START COL 6-->
+        <div class="col-md-12 col-md-toppad" ><!--START COL 6-->
           <div class="panel panel-info"> <!--START PANEL INFO-->
-            <div class="panel-heading"> <!--START PANEL HEADING-->
+            <div class="panel-heading emergency"> <!--START PANEL HEADING-->
               <h3 class="panel-title">Emergency Contact</h3> <!--NAME-->
             </div><!---END PANEL PANEL-HEADING--->
             <div class="panel-body"> <!--START DIVE BODY-->
@@ -301,10 +263,360 @@
         
       </div><!---END Second row--->
     <!---END EM CONTACT-->
+  
+  <!--START ATTACH DOCS-->
+        <div class="row">
+        <div class="col-md-12 col-md-toppad" ><!--START COL 6-->
+          <div class="panel panel-info"> <!--START PANEL INFO-->
+            <div class="panel-heading"> <!--START PANEL HEADING-->
+              <h3 class="panel-title">Documents</h3> <!--NAME-->
+            </div><!---END PANEL PANEL-HEADING--->
+            <div class="panel-body"> <!--START DIVE BODY-->
+              <div class="row"> <!--START RWO PANEL BODY-->
+                <div class="col-md-3 col-lg-3 " align="center"> 
+                </div><!---END COL-MD-3--->
+                
+                 
+                  <table class="table table-user-information"> <!--TABLE USER INFO-->
+                    <tbody>
+                      <tr>
+                        <td>Rabies Vaccine</td>
+						<td> <a href="rabies.PDF">rabies.PDF</a>
+                     	</td>
+                      </tr>
+                      <tr>
+                      	<td>Resume</td>
+                      	<td> <a href="resume.DOCX">resume.DOCX</a>
+                      	</td>
+                      	
+                      </tr>
+                      <tr>
+                      	<td>VA Animal rehab permit</td>
+                      	<td> <a href="rehabpermit.DOCX">rehab.PDF</a>
+                      	</td>
+                      </tr>
+                      
+             
+             
+                    </tbody>
+                  </table>
+               
+              </div><!---END ROW--->
+            </div><!---END PANEL-BODY--->
+          </div><!---END PANEL-PANEL INFO--->
+        </div><!---END COL-MD-6--->
+        
+      </div><!---END Second row--->
+     <!--END ATTACH DOCS-->
+   
+    
+	 </div>   <!--END LEFT col-->
+     
       
+ <div class="col-md-6"> <!--RIGHT COL-->
+  
+  <!--START TRANSPORT TEAM INFO-->
+        <div class="row">
+        <div class="col-md-12 col-md-toppad" ><!--START COL 6-->
+          <div class="panel panel-info"> <!--START PANEL INFO-->
+            <div class="panel-heading"> <!--START PANEL HEADING-->
+              <h3 class="panel-title">Transport Team Information</h3> <!--NAME-->
+            </div><!---END PANEL PANEL-HEADING--->
+            <div class="panel-body"> <!--START DIVE BODY-->
+              <div class="row"> <!--START RWO PANEL BODY-->
+                <div class="col-md-3 col-lg-3 " align="center"> 
+                </div><!---END COL-MD-3--->
+                
+                 
+                  <table class="table table-user-information"> <!--TABLE USER INFO-->
+                    <tbody>
+                      <tr>
+                        <td>Availability:</td>
+						  <td>Mondays-9:00am-12:00pm, <br>Thursdays-12:00pm-4:00pm<br> Year Round
+                     </td>
+                      </tr>
+                      <tr>
+                      <tr>
+                        <td>Distance willing to travel:</td>
+						   <td>
+                    		100 Miles
+                     	</td>
+                      </tr>
+                      </tr>
+                       <tr>
+                        <td>Do you hold a valid permit <br> to rehabilitate wildlife <br> in the state of Virginia?</td>
+						   <td>
+                     			Yes
+                     		</td>
+                      </tr>
+                      <tr>
+                        <td>Species limitation:</td>
+						   <td>
+                     			No Bears
+                     	</td>
+                      </tr>
+                      
+                       <tr>
+                        <td>Capture and restrain class?</td>
+						   <td>
+                     			Yes
+                     	</td>
+                      </tr>
+             
+                    </tbody>
+                  </table>
+               
+              </div><!---END ROW--->
+            </div><!---END PANEL-BODY--->
+          </div><!---END PANEL-PANEL INFO--->
+        </div><!---END COL-MD-6--->
+        
+      </div><!---END Second row--->
+      
+   <!--END TIMESHEET-->
+   
+   <!--START OUTREACH TEAM INFO-->
+        <div class="row">
+        <div class="col-md-12 col-md-toppad" ><!--START COL 6-->
+          <div class="panel panel-info"> <!--START PANEL INFO-->
+            <div class="panel-heading"> <!--START PANEL HEADING-->
+              <h3 class="panel-title">Outreach Team Information</h3> <!--NAME-->
+            </div><!---END PANEL PANEL-HEADING--->
+            <div class="panel-body"> <!--START DIVE BODY-->
+              <div class="row"> <!--START RWO PANEL BODY-->
+                <div class="col-md-3 col-lg-3 " align="center"> 
+                </div><!---END COL-MD-3--->
+                
+                 
+                  <table class="table table-user-information"> <!--TABLE USER INFO-->
+                    <tbody>
+                      <tr>
+                        <td>Tours:</td>
+						  <td>First shadow
+                     </td>
+                      </tr>
+                      <tr>
+                      <tr>
+                        <td>Offsite display</td>
+						   <td>
+                    		Yes
+                     	</td>
+                      </tr>
+                      </tr>
+                       <tr>
+                        <td>Reptile Handling</td>
+						   <td>
+                     			Snakes, lizards
+                     		</td>
+                      </tr>
+                      <tr>
+                        <td>Reptiles Handling notes</td>
+						   <td>
+                     			N/A
+                     	</td>
+                      </tr>
+                      
+                     <tr>
+                        <td>Falconers Knot</td>
+						   <td>
+                     			Yes
+                     	</td>
+                      </tr>
+                      
+                      <tr>
+                        <td>Birds to handle:</td>
+						   <td>
+                     			--
+                     	</td>
+                      </tr>
+                        
+                      <tr>
+                        <td>Birds to remove from enclosue:</td>
+						   <td>
+                     			--
+                     	</td>
+                      </tr>
+                      <tr>
+                       
+                        <td>Birds to note:</td>
+						   <td>
+                     			--
+                     	</td>
+                      </tr>
+             
+                    </tbody>
+                  </table>
+               
+              </div><!---END ROW--->
+            </div><!---END PANEL-BODY--->
+          </div><!---END PANEL-PANEL INFO--->
+        </div><!---END COL-MD-6--->
+        
+      </div><!---END Second row--->
+      
+   <!--END OUTREAC-->
+
+  <!--START VET TEAM INFO-->
+        <div class="row">
+        <div class="col-md-12 col-md-toppad" ><!--START COL 6-->
+          <div class="panel panel-info"> <!--START PANEL INFO-->
+            <div class="panel-heading"> <!--START PANEL HEADING-->
+              <h3 class="panel-title">Vet Team Information</h3> <!--NAME-->
+            </div><!---END PANEL PANEL-HEADING--->
+            <div class="panel-body"> <!--START DIVE BODY-->
+              <div class="row"> <!--START RWO PANEL BODY-->
+                <div class="col-md-3 col-lg-3 " align="center"> 
+                </div><!---END COL-MD-3--->
+                
+                 
+                  <table class="table table-user-information"> <!--TABLE USER INFO-->
+                    <tbody>
+                      <tr>
+                        <td>Handling skills:</td>
+						  <td>Small mammals <br/>Large mammals <br/> RVS <br/> Eagles <br/> Small raptors <br/> Large raptors <br/> Reptiles
+                     </td>
+                      </tr>
+                      <tr>
+                      <tr>
+                        <td>Vet training</td>
+						   <td>
+                    		Vet
+                     	</td>
+                      </tr>
+                      </tr>
+                       <tr>
+                        <td>Patient Care skills</td>
+						   <td>
+							   Medicating <br/>Bandaging <br/>Wound care <br/>Diagnostics <br/>anesthesia
+                     		</td>
+                      </tr>
+                      <tr>
+                        <td>Special interests/ hobbies</td>
+						   <td>
+                     			N/A
+                     	</td>
+                      </tr>
+                      
+                     <tr>
+                        <td>Notes</td>
+						   <td>
+                     			Good with bears
+                     	</td>
+                      </tr>
+                    
+             
+                    </tbody>
+                  </table>
+               
+              </div><!---END ROW--->
+            </div><!---END PANEL-BODY--->
+          </div><!---END PANEL-PANEL INFO--->
+        </div><!---END COL-MD-6--->
+        
+      </div><!---END Second row--->
+      
+   <!--END VET TEAM-->  
+   
+   <!--START ANIMAL CARE TEAM INFO-->
+        <div class="row">
+        <div class="col-md-12 col-md-toppad" ><!--START COL 6-->
+          <div class="panel panel-info"> <!--START PANEL INFO-->
+            <div class="panel-heading"> <!--START PANEL HEADING-->
+              <h3 class="panel-title">Animal Care Team Information</h3> <!--NAME-->
+            </div><!---END PANEL PANEL-HEADING--->
+            <div class="panel-body"> <!--START DIVE BODY-->
+              <div class="row"> <!--START RWO PANEL BODY-->
+                <div class="col-md-3 col-lg-3 " align="center"> 
+                </div><!---END COL-MD-3--->
+                
+                 
+                  <table class="table table-user-information"> <!--TABLE USER INFO-->
+                    <tbody>
+                      <tr>
+                        <td>Animal Care</td>
+						  <td>Reptile Room <br/>Reptile Room Soak Day<br/> Education Snake Feeding Day <br/> ICU <br/>Expanded ICU <br/>Aviary <br/> Mammals <br/> PU&amp;E <br/> PU&amp;E Weigh Day <br/>
+							  Fawns <br/> Formula <br/> Meals <br/>Raptor Feed <br/> ISO <br/>
+                     </td>
+                      </tr>
+                    
+                    
+             
+                    </tbody>
+                  </table>
+               
+              </div><!---END ROW--->
+            </div><!---END PANEL-BODY--->
+          </div><!---END PANEL-PANEL INFO--->
+        </div><!---END COL-MD-6--->
+        
+      </div><!---END Second row--->
+      
+   <!--END VET TEAM-->  
+  
+  
+  <!--START PERSONAL INFORMATION-->
+        <div class="row">
+        <div class="col-md-12 col-md-toppad" ><!--START COL 6-->
+          <div class="panel panel-info"> <!--START PANEL INFO-->
+            <div class="panel-heading"> <!--START PANEL HEADING-->
+              <h3 class="panel-title">Personal Information</h3> <!--NAME-->
+            </div><!---END PANEL PANEL-HEADING--->
+            <div class="panel-body"> <!--START DIVE BODY-->
+              <div class="row"> <!--START RWO PANEL BODY-->
+                <div class="col-md-3 col-lg-3 " align="center"> 
+                </div><!---END COL-MD-3--->
+                
+                 
+                  <table class="table table-user-information"> <!--TABLE USER INFO-->
+                    <tbody>
+                      <tr>
+                        <td>Hire Date:</td>
+                        <td>06/02/2015</td>
+                      </tr>
+                      <tr>
+                        <td>DOB:</td>
+                        <td>07/19/1982</td>
+                      </tr>
+                    <tr>
+                      <tr>
+                        <td>Gender</td>
+                        <td>Male</td>
+                      </tr>
+                    </tr>
+                    <tr>
+                    	<tr>
+                    	<td>Home Address</td>
+                    	<td>
+                    		123 Hunter Dr, Lawrence, Kansas 66049
+                    	</td>
+                    	</tr>
+					 </tr>
+              		<tr>
+              			<tr>
+              			<td>Phone Number:</td>
+              			<td>
+              				(785)476-9555
+                         </td>
+						</tr>
+              		</tr>
+              		
+             
+                    </tbody>
+                  </table>
+               
+              </div><!---END ROW--->
+            </div><!---END PANEL-BODY--->
+          </div><!---END PANEL-PANEL INFO--->
+        </div><!---END COL-MD-6--->
+        
+      </div><!---END Second row--->
+      
+  <!--END PERSONAL INFORMATION-->
+    
+    
     <!--START MED INFO-->
         <div class="row">
-        <div class="col-md-6 col-md-toppad col-md-offset-3" ><!--START COL 6-->
+        <div class="col-md-12 col-md-toppad" ><!--START COL 6-->
           <div class="panel panel-info"> <!--START PANEL INFO-->
             <div class="panel-heading"> <!--START PANEL HEADING-->
               <h3 class="panel-title">Medical Information</h3> <!--NAME-->
@@ -319,22 +631,31 @@
                     <tbody>
                       <tr>
                         <td>Rabies Vaccinated w/in past 2 years:</td>
-                        <td>Yes</td>
+                        <td>
+                         	Yes
+                        </td>
                       </tr>
                       <tr>
                         <td>Allergies:</td>
-                        <td>None</td>
+                        <td>
+                        	None
+                        
+                        </td>
                       </tr>
                     <tr>
                       <tr>
                         <td>Pre-Existing Medical Conditions:</td>
-                        <td>None</td>
+                        <td>
+                        	None
+                        </td>
                       </tr>
                     </tr>
                     <tr>
                     <tr>
                         <td>Physical Limitations:</td>
-                        <td>None</td>
+                        <td>
+                        	None
+                        </td>
                       </tr>
                     </tr>
                
@@ -348,111 +669,22 @@
         
       </div><!---END Second row--->
    <!---END MED INFO--->
-     
-   <!--START AVAILABILITY INFO-->
-        <div class="row">
-        <div class="col-md-6 col-md-toppad col-md-offset-3" ><!--START COL 6-->
-          <div class="panel panel-info"> <!--START PANEL INFO-->
-            <div class="panel-heading"> <!--START PANEL HEADING-->
-              <h3 class="panel-title">Wildlife Center Information</h3> <!--NAME-->
-            </div><!---END PANEL PANEL-HEADING--->
-            <div class="panel-body"> <!--START DIVE BODY-->
-              <div class="row"> <!--START RWO PANEL BODY-->
-                <div class="col-md-3 col-lg-3 " align="center"> 
-                </div><!---END COL-MD-3--->
-                
-                 
-                  <table class="table table-user-information"> <!--TABLE USER INFO-->
-                    <tbody>
-                      <tr>
-                        <td>Availability:</td>
-						  <td>Mondays-9:00am-12:00pm, <br>Thursdays-12:00pm-4:00pm<br>
-						  
-                     <div class="checkbox checkbox-warning checkbox-circle">
-                        <input id="year-round check box" type="checkbox" disabled="" checked="">
-                        <label for="year-round check box">
-                            Year-Round
-                        </label>
-                    </div>
-                     <div class="checkbox checkbox-warning checkbox-circle">
-                        <input id="seasonal check box" type="checkbox" disabled="">
-                        <label for="seasonal check box">
-                            Seasonal
-                        </label>
-                    </div>
-                     </td>
-                      </tr>
-                      <tr>
-                      <tr>
-                        <td>Distance willing to travel:</td>
-						   <td>100 mi</td>
-                      </tr>
-                      </tr>
-                       <tr>
-                        <td>Do you hold a valid permit <br> to rehabilitate wildlife <br> in the state of Virginia?</td>
-						   <td>Yes</td>
-                      </tr>
-                      <tr>
-                        <td>Species limitation:</td>
-						   <td>No bears</td>
-                      </tr>
-             
-                    </tbody>
-                  </table>
-               
-              </div><!---END ROW--->
-            </div><!---END PANEL-BODY--->
-          </div><!---END PANEL-PANEL INFO--->
-        </div><!---END COL-MD-6--->
-        
-      </div><!---END Second row--->
+   
+   
+   
+    
       
-   <!---END availabilityINFO--->
-     <!--START ATTACH DOCS-->
-        <div class="row">
-        <div class="col-md-6 col-md-toppad col-md-offset-3" ><!--START COL 6-->
-          <div class="panel panel-info"> <!--START PANEL INFO-->
-            <div class="panel-heading"> <!--START PANEL HEADING-->
-              <h3 class="panel-title">Attach Documents</h3> <!--NAME-->
-            </div><!---END PANEL PANEL-HEADING--->
-            <div class="panel-body"> <!--START DIVE BODY-->
-              <div class="row"> <!--START RWO PANEL BODY-->
-                <div class="col-md-3 col-lg-3 " align="center"> 
-                </div><!---END COL-MD-3--->
-                
-                 
-                  <table class="table table-user-information"> <!--TABLE USER INFO-->
-                    <tbody>
-                      <tr>
-                        <td>Rabies Vaccine</td>
-						<td> <a href="rabies.PDF">rabies.PDF</a></td>
-                      </tr>
-                      <tr>
-                      	<td>Resume</td>
-                      	<td> <a href="resume.DOCX">resume.DOCX</a></td>
-                      	
-                      </tr>
-                      <tr>
-                      	<td>VA Animal rehab permit</td>
-                      	<td> <a href="rehabpermit.DOCX">rehab.PDF</a></td>
-                      	
-                      </tr>
-             
-             
-                    </tbody>
-                  </table>
-               
-              </div><!---END ROW--->
-            </div><!---END PANEL-BODY--->
-          </div><!---END PANEL-PANEL INFO--->
-        </div><!---END COL-MD-6--->
-        
-      </div><!---END Second row--->
-     <!--END ATTACH DOCS-->
-      
-      
+	 </div> <!--END RIGHT ROW-->
+	 
+	   
+	     
+	    
   
      
+</div> <!--END PROFILE-->     
+      
+
+      
       
    
      
